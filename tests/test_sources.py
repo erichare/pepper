@@ -54,6 +54,26 @@ def test_after_lower_bound_stops_walk(httpx_mock, client):
     assert ids == ["t3_aaa", "t3_bbb"]
 
 
+def test_arcticshift_fetch_by_fullnames_splits_by_type(httpx_mock, client):
+    # comments endpoint queried first (t1_), then posts endpoint (t3_)
+    httpx_mock.add_response(
+        url="https://arctic-shift.photon-reddit.com/api/comments/ids?ids=t1_a",
+        json={"data": [{"id": "a", "name": "t1_a", "body": "parent comment", "author": "bob",
+                        "subreddit": "s", "created_utc": 100}]},
+    )
+    httpx_mock.add_response(
+        url="https://arctic-shift.photon-reddit.com/api/posts/ids?ids=t3_b",
+        json={"data": [{"id": "b", "name": "t3_b", "title": "Original post", "author": "alice",
+                        "subreddit": "s", "created_utc": 90}]},
+    )
+    src = ArcticShiftSource(client, NullRateLimiter(), "newppinpoint")
+    out = list(src.fetch_by_fullnames(["t1_a", "t3_b"]))
+    by_id = {name: (data, it) for name, data, it in out}
+    assert by_id["t1_a"][1] is ItemType.COMMENT
+    assert by_id["t3_b"][1] is ItemType.SUBMISSION
+    assert by_id["t1_a"][0]["author"] == "bob"
+
+
 def test_pullpush_uses_results_or_data_key(httpx_mock, client):
     httpx_mock.add_response(json={"data": [{"id": "q1", "name": "t1_q1", "body": "hi",
                                             "author": "newppinpoint", "subreddit": "s", "created_utc": 500, "score": 2}]})

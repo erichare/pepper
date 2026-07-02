@@ -218,9 +218,22 @@ def enrich(settings: Settings, conn) -> dict:
 
 # ── context ───────────────────────────────────────────────────────
 def context(settings: Settings, conn) -> dict:
+    """Fetch comment parents. Uses the Reddit API when configured, else falls
+    back to Arctic Shift's by-id endpoint (no credentials required)."""
     repo = Repo(conn)
-    praw = PrawSource(settings) if settings.has_reddit_api() else None
-    return fetch_context(repo, praw)
+    if settings.has_reddit_api():
+        return fetch_context(repo, PrawSource(settings))
+
+    from .net import RateLimiter, make_client
+
+    client = make_client(settings.reddit_user_agent)
+    try:
+        source = ArcticShiftSource(
+            client, RateLimiter(settings.rl_arcticshift_per_sec), settings.reddit_username
+        )
+        return fetch_context(repo, source)
+    finally:
+        client.close()
 
 
 # ── media ─────────────────────────────────────────────────────────
