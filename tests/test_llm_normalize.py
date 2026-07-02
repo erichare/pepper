@@ -1,6 +1,32 @@
 from __future__ import annotations
 
-from pepper.archive.llm.batch import _normalize_dossier, _normalize_map_findings
+from pepper.archive.llm.batch import _normalize_dossier, _normalize_map_findings, digest_findings
+
+
+def test_digest_findings_dedupes_ranks_and_unions_fact_sources():
+    findings = [
+        {"interests": ["Chipotle", "Pokemon Go"], "opinions": [], "values": ["value for money"],
+         "voice_traits": ["blunt"],
+         "claimed_facts": [{"category": "job", "value": "Chipotle employee", "confidence": "high", "source_id": "t1_a"}]},
+        {"interests": ["chipotle", "Taco Bell"], "opinions": [], "values": [],
+         "voice_traits": ["blunt", "sarcastic"],
+         "claimed_facts": [{"category": "job", "value": "chipotle employee", "confidence": "high", "source_id": "t1_b"}]},
+    ]
+    d = digest_findings(findings)
+    # 'Chipotle' mentioned in both chunks (case-insensitive) -> ranked first
+    assert d["interests"][0].lower() == "chipotle"
+    assert "blunt" in [v.lower() for v in d["voice_traits"]]
+    # identical job fact consolidated to one, unioning both source ids
+    jobs = [f for f in d["claimed_facts"] if f["category"] == "job"]
+    assert len(jobs) == 1
+    assert set(jobs[0]["sources"]) == {"t1_a", "t1_b"}
+
+
+def test_digest_findings_is_bounded():
+    findings = [{"interests": [f"i{i}" for i in range(100)], "opinions": [], "values": [],
+                 "voice_traits": [], "claimed_facts": []}]
+    d = digest_findings(findings)
+    assert len(d["interests"]) <= 30
 
 
 def test_normalize_dossier_defaults_missing_fields():
