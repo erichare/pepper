@@ -14,9 +14,14 @@ def test_normalize_dossier_defaults_missing_fields():
     assert d["voice_guide"]["tone"] == ""
     for k in ("quirks", "vocabulary", "dos", "donts", "example_openers"):
         assert d["voice_guide"][k] == []
-    # existing content preserved
+    # existing content preserved; facts gain a sources list
     assert d["interests"] == ["a"]
-    assert d["biographical_facts"] == [{"value": "x"}]
+    assert d["biographical_facts"] == [{"value": "x", "sources": []}]
+
+
+def test_normalize_dossier_drops_non_dict_facts():
+    d = _normalize_dossier({"biographical_facts": ["a bare string", {"value": "y"}]})
+    assert d["biographical_facts"] == [{"value": "y", "sources": []}]
 
 
 def test_normalize_dossier_repairs_wrong_types():
