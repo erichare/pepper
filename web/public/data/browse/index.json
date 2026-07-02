@@ -1,0 +1,699 @@
+{
+  "shards": [
+    {
+      "count": 33,
+      "file": "burgerking-2023.json",
+      "subreddit": "BurgerKing",
+      "year": 2023
+    },
+    {
+      "count": 173,
+      "file": "burgerking-2024.json",
+      "subreddit": "BurgerKing",
+      "year": 2024
+    },
+    {
+      "count": 326,
+      "file": "burgerking-2025.json",
+      "subreddit": "BurgerKing",
+      "year": 2025
+    },
+    {
+      "count": 65,
+      "file": "burgerking-2026.json",
+      "subreddit": "BurgerKing",
+      "year": 2026
+    },
+    {
+      "count": 1,
+      "file": "chipotle-2021.json",
+      "subreddit": "Chipotle",
+      "year": 2021
+    },
+    {
+      "count": 863,
+      "file": "chipotle-2022.json",
+      "subreddit": "Chipotle",
+      "year": 2022
+    },
+    {
+      "count": 4739,
+      "file": "chipotle-2023.json",
+      "subreddit": "Chipotle",
+      "year": 2023
+    },
+    {
+      "count": 2758,
+      "file": "chipotle-2024.json",
+      "subreddit": "Chipotle",
+      "year": 2024
+    },
+    {
+      "count": 3113,
+      "file": "chipotle-2025.json",
+      "subreddit": "Chipotle",
+      "year": 2025
+    },
+    {
+      "count": 157,
+      "file": "chipotle-2026.json",
+      "subreddit": "Chipotle",
+      "year": 2026
+    },
+    {
+      "count": 1,
+      "file": "fastfood-2021.json",
+      "subreddit": "fastfood",
+      "year": 2021
+    },
+    {
+      "count": 67,
+      "file": "fastfood-2023.json",
+      "subreddit": "fastfood",
+      "year": 2023
+    },
+    {
+      "count": 228,
+      "file": "fastfood-2024.json",
+      "subreddit": "fastfood",
+      "year": 2024
+    },
+    {
+      "count": 68,
+      "file": "fastfood-2025.json",
+      "subreddit": "fastfood",
+      "year": 2025
+    },
+    {
+      "count": 20,
+      "file": "innout-2022.json",
+      "subreddit": "innout",
+      "year": 2022
+    },
+    {
+      "count": 17,
+      "file": "innout-2023.json",
+      "subreddit": "innout",
+      "year": 2023
+    },
+    {
+      "count": 218,
+      "file": "innout-2024.json",
+      "subreddit": "innout",
+      "year": 2024
+    },
+    {
+      "count": 16,
+      "file": "jerseymikes-2024.json",
+      "subreddit": "jerseymikes",
+      "year": 2024
+    },
+    {
+      "count": 969,
+      "file": "jerseymikes-2025.json",
+      "subreddit": "jerseymikes",
+      "year": 2025
+    },
+    {
+      "count": 166,
+      "file": "jerseymikes-2026.json",
+      "subreddit": "jerseymikes",
+      "year": 2026
+    },
+    {
+      "count": 2,
+      "file": "livingmas-2021.json",
+      "subreddit": "LivingMas",
+      "year": 2021
+    },
+    {
+      "count": 21,
+      "file": "livingmas-2022.json",
+      "subreddit": "LivingMas",
+      "year": 2022
+    },
+    {
+      "count": 201,
+      "file": "livingmas-2023.json",
+      "subreddit": "LivingMas",
+      "year": 2023
+    },
+    {
+      "count": 63,
+      "file": "livingmas-2024.json",
+      "subreddit": "LivingMas",
+      "year": 2024
+    },
+    {
+      "count": 59,
+      "file": "livingmas-2025.json",
+      "subreddit": "LivingMas",
+      "year": 2025
+    },
+    {
+      "count": 30,
+      "file": "other-2020.json",
+      "subreddit": "other",
+      "year": 2020
+    },
+    {
+      "count": 31,
+      "file": "other-2021.json",
+      "subreddit": "other",
+      "year": 2021
+    },
+    {
+      "count": 71,
+      "file": "other-2022.json",
+      "subreddit": "other",
+      "year": 2022
+    },
+    {
+      "count": 283,
+      "file": "other-2023.json",
+      "subreddit": "other",
+      "year": 2023
+    },
+    {
+      "count": 483,
+      "file": "other-2024.json",
+      "subreddit": "other",
+      "year": 2024
+    },
+    {
+      "count": 708,
+      "file": "other-2025.json",
+      "subreddit": "other",
+      "year": 2025
+    },
+    {
+      "count": 17,
+      "file": "other-2026.json",
+      "subreddit": "other",
+      "year": 2026
+    },
+    {
+      "count": 188,
+      "file": "subway-2022.json",
+      "subreddit": "subway",
+      "year": 2022
+    },
+    {
+      "count": 187,
+      "file": "subway-2023.json",
+      "subreddit": "subway",
+      "year": 2023
+    },
+    {
+      "count": 735,
+      "file": "subway-2024.json",
+      "subreddit": "subway",
+      "year": 2024
+    },
+    {
+      "count": 230,
+      "file": "tacobell-2023.json",
+      "subreddit": "tacobell",
+      "year": 2023
+    },
+    {
+      "count": 602,
+      "file": "tacobell-2024.json",
+      "subreddit": "tacobell",
+      "year": 2024
+    },
+    {
+      "count": 1283,
+      "file": "tacobell-2025.json",
+      "subreddit": "tacobell",
+      "year": 2025
+    },
+    {
+      "count": 65,
+      "file": "tacobell-2026.json",
+      "subreddit": "tacobell",
+      "year": 2026
+    },
+    {
+      "count": 26,
+      "file": "wendys-2022.json",
+      "subreddit": "wendys",
+      "year": 2022
+    },
+    {
+      "count": 97,
+      "file": "wendys-2023.json",
+      "subreddit": "wendys",
+      "year": 2023
+    },
+    {
+      "count": 433,
+      "file": "wendys-2024.json",
+      "subreddit": "wendys",
+      "year": 2024
+    },
+    {
+      "count": 437,
+      "file": "wendys-2025.json",
+      "subreddit": "wendys",
+      "year": 2025
+    },
+    {
+      "count": 6,
+      "file": "wendys-2026.json",
+      "subreddit": "wendys",
+      "year": 2026
+    },
+    {
+      "count": 3,
+      "file": "wingstop-2023.json",
+      "subreddit": "wingstop",
+      "year": 2023
+    },
+    {
+      "count": 1,
+      "file": "wingstop-2024.json",
+      "subreddit": "wingstop",
+      "year": 2024
+    },
+    {
+      "count": 241,
+      "file": "wingstop-2025.json",
+      "subreddit": "wingstop",
+      "year": 2025
+    },
+    {
+      "count": 13,
+      "file": "wingstop-2026.json",
+      "subreddit": "wingstop",
+      "year": 2026
+    }
+  ],
+  "subreddits": [
+    {
+      "count": 11631,
+      "subreddit": "Chipotle"
+    },
+    {
+      "count": 2180,
+      "subreddit": "tacobell"
+    },
+    {
+      "count": 1151,
+      "subreddit": "jerseymikes"
+    },
+    {
+      "count": 1110,
+      "subreddit": "subway"
+    },
+    {
+      "count": 999,
+      "subreddit": "wendys"
+    },
+    {
+      "count": 597,
+      "subreddit": "BurgerKing"
+    },
+    {
+      "count": 364,
+      "subreddit": "fastfood"
+    },
+    {
+      "count": 346,
+      "subreddit": "LivingMas"
+    },
+    {
+      "count": 258,
+      "subreddit": "wingstop"
+    },
+    {
+      "count": 255,
+      "subreddit": "innout"
+    },
+    {
+      "count": 239,
+      "subreddit": "ChickFilA"
+    },
+    {
+      "count": 179,
+      "subreddit": "Whataburger"
+    },
+    {
+      "count": 138,
+      "subreddit": "fiveguys"
+    },
+    {
+      "count": 86,
+      "subreddit": "beanscoopers"
+    },
+    {
+      "count": 79,
+      "subreddit": "McDonalds"
+    },
+    {
+      "count": 78,
+      "subreddit": "DelTaco"
+    },
+    {
+      "count": 62,
+      "subreddit": "Panera"
+    },
+    {
+      "count": 49,
+      "subreddit": "baseball"
+    },
+    {
+      "count": 48,
+      "subreddit": "Popeyes"
+    },
+    {
+      "count": 45,
+      "subreddit": "Culvers"
+    },
+    {
+      "count": 44,
+      "subreddit": "TheSilphRoad"
+    },
+    {
+      "count": 43,
+      "subreddit": "Dominos"
+    },
+    {
+      "count": 42,
+      "subreddit": "jackinthebox"
+    },
+    {
+      "count": 41,
+      "subreddit": "TrueCrimeDiscussion"
+    },
+    {
+      "count": 37,
+      "subreddit": "Costco"
+    },
+    {
+      "count": 33,
+      "subreddit": "Starliner"
+    },
+    {
+      "count": 29,
+      "subreddit": "BuffaloWildWings"
+    },
+    {
+      "count": 26,
+      "subreddit": "TropicalWeather"
+    },
+    {
+      "count": 21,
+      "subreddit": "titanic"
+    },
+    {
+      "count": 19,
+      "subreddit": "boeing"
+    },
+    {
+      "count": 17,
+      "subreddit": "burgers"
+    },
+    {
+      "count": 16,
+      "subreddit": "TheSilphArena"
+    },
+    {
+      "count": 16,
+      "subreddit": "news"
+    },
+    {
+      "count": 14,
+      "subreddit": "Seattle"
+    },
+    {
+      "count": 13,
+      "subreddit": "pizzahut"
+    },
+    {
+      "count": 12,
+      "subreddit": "olivegarden"
+    },
+    {
+      "count": 11,
+      "subreddit": "Dodgers"
+    },
+    {
+      "count": 10,
+      "subreddit": "Pizza"
+    },
+    {
+      "count": 10,
+      "subreddit": "RaisingCanes"
+    },
+    {
+      "count": 10,
+      "subreddit": "kfc"
+    },
+    {
+      "count": 9,
+      "subreddit": "jimmyjohns"
+    },
+    {
+      "count": 8,
+      "subreddit": "space"
+    },
+    {
+      "count": 7,
+      "subreddit": "pasta"
+    },
+    {
+      "count": 6,
+      "subreddit": "Chilis"
+    },
+    {
+      "count": 6,
+      "subreddit": "NewYorkMets"
+    },
+    {
+      "count": 6,
+      "subreddit": "RMS_Titanic"
+    },
+    {
+      "count": 6,
+      "subreddit": "columbia"
+    },
+    {
+      "count": 6,
+      "subreddit": "pokemongo"
+    },
+    {
+      "count": 6,
+      "subreddit": "shakeshack"
+    },
+    {
+      "count": 5,
+      "subreddit": "COVID19positive"
+    },
+    {
+      "count": 5,
+      "subreddit": "chips"
+    },
+    {
+      "count": 5,
+      "subreddit": "poutine"
+    },
+    {
+      "count": 4,
+      "subreddit": "Cheese"
+    },
+    {
+      "count": 4,
+      "subreddit": "RobbShooting"
+    },
+    {
+      "count": 4,
+      "subreddit": "aviation"
+    },
+    {
+      "count": 4,
+      "subreddit": "bys"
+    },
+    {
+      "count": 3,
+      "subreddit": "CryptoCurrency"
+    },
+    {
+      "count": 3,
+      "subreddit": "ItalianFood"
+    },
+    {
+      "count": 3,
+      "subreddit": "LittleCaesars"
+    },
+    {
+      "count": 3,
+      "subreddit": "The10thDentist"
+    },
+    {
+      "count": 3,
+      "subreddit": "britishproblems"
+    },
+    {
+      "count": 3,
+      "subreddit": "nfl"
+    },
+    {
+      "count": 3,
+      "subreddit": "reolinkcam"
+    },
+    {
+      "count": 3,
+      "subreddit": "ricescooperpersons"
+    },
+    {
+      "count": 2,
+      "subreddit": "Cooking"
+    },
+    {
+      "count": 2,
+      "subreddit": "FoodLosAngeles"
+    },
+    {
+      "count": 2,
+      "subreddit": "PapaJohns"
+    },
+    {
+      "count": 2,
+      "subreddit": "Sriracha"
+    },
+    {
+      "count": 2,
+      "subreddit": "TeenagersButBetter"
+    },
+    {
+      "count": 2,
+      "subreddit": "detroitlions"
+    },
+    {
+      "count": 2,
+      "subreddit": "hotsauce"
+    },
+    {
+      "count": 1,
+      "subreddit": "49ers"
+    },
+    {
+      "count": 1,
+      "subreddit": "AnaWalshe"
+    },
+    {
+      "count": 1,
+      "subreddit": "Birkenstocks"
+    },
+    {
+      "count": 1,
+      "subreddit": "Hyundai"
+    },
+    {
+      "count": 1,
+      "subreddit": "KarmaCourt"
+    },
+    {
+      "count": 1,
+      "subreddit": "Python"
+    },
+    {
+      "count": 1,
+      "subreddit": "Skimpotle"
+    },
+    {
+      "count": 1,
+      "subreddit": "SonicDriveIn"
+    },
+    {
+      "count": 1,
+      "subreddit": "Warzone"
+    },
+    {
+      "count": 1,
+      "subreddit": "angelsbaseball"
+    },
+    {
+      "count": 1,
+      "subreddit": "antiwork"
+    },
+    {
+      "count": 1,
+      "subreddit": "austinfood"
+    },
+    {
+      "count": 1,
+      "subreddit": "cheesesteak"
+    },
+    {
+      "count": 1,
+      "subreddit": "discordapp"
+    },
+    {
+      "count": 1,
+      "subreddit": "glutenfree"
+    },
+    {
+      "count": 1,
+      "subreddit": "indieheads"
+    },
+    {
+      "count": 1,
+      "subreddit": "insomnia"
+    },
+    {
+      "count": 1,
+      "subreddit": "mlb"
+    },
+    {
+      "count": 1,
+      "subreddit": "pics"
+    },
+    {
+      "count": 1,
+      "subreddit": "pokemon"
+    },
+    {
+      "count": 1,
+      "subreddit": "rolex"
+    },
+    {
+      "count": 1,
+      "subreddit": "rstats"
+    },
+    {
+      "count": 1,
+      "subreddit": "sanfrancisco"
+    },
+    {
+      "count": 1,
+      "subreddit": "spicy"
+    },
+    {
+      "count": 1,
+      "subreddit": "television"
+    },
+    {
+      "count": 1,
+      "subreddit": "udub"
+    },
+    {
+      "count": 1,
+      "subreddit": "wallstreetbets"
+    }
+  ],
+  "top_subreddits": [
+    "Chipotle",
+    "tacobell",
+    "jerseymikes",
+    "subway",
+    "wendys",
+    "BurgerKing",
+    "fastfood",
+    "LivingMas",
+    "wingstop",
+    "innout"
+  ],
+  "total": 20514
+}

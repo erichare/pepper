@@ -47,6 +47,9 @@ class Settings(BaseSettings):
     # feature flags
     include_deleted: bool = True
 
+    # web app (Next.js) export target
+    web_dir: Path = Path("./web")
+
     # ── derived paths ──
     @property
     def db_path(self) -> Path:
@@ -75,6 +78,14 @@ class Settings(BaseSettings):
     @property
     def nltk_dir(self) -> Path:
         return self.data_dir / "nltk_data"
+
+    @property
+    def web_data_dir(self) -> Path:
+        return self.web_dir / "src" / "data"
+
+    @property
+    def web_public_dir(self) -> Path:
+        return self.web_dir / "public"
 
     # ── capability checks ──
     def has_reddit_api(self) -> bool:

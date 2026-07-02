@@ -1,0 +1,916 @@
+{
+  "dossier": {
+    "biographical_facts": [
+      {
+        "category": "job",
+        "confidence": "high",
+        "source_links": [
+          {
+            "id": "t1_kdftobc",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/18ic4lu/comment/kdftobc/"
+          },
+          {
+            "id": "t1_khboi01",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/193q9i2/comment/khboi01/"
+          },
+          {
+            "id": "t1_m7fl3s2",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1i24u4f/comment/m7fl3s2/"
+          },
+          {
+            "id": "t1_my8canu",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1ldb0n0/comment/my8canu/"
+          },
+          {
+            "id": "t1_nwmmybn",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1pyyzid/comment/nwmmybn/"
+          },
+          {
+            "id": "t1_k72x3wr",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/17js908/comment/k72x3wr/"
+          },
+          {
+            "id": "t1_ka0d92b",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/17zd8wm/comment/ka0d92b/"
+          },
+          {
+            "id": "t1_m7ep6jv",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1i2dlce/comment/m7ep6jv/"
+          },
+          {
+            "id": "t1_ms343bq",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1kld42p/comment/ms343bq/"
+          },
+          {
+            "id": "t1_mhni8rc",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1j9zs1a/comment/mhni8rc/"
+          },
+          {
+            "id": "t1_nhv9o89",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1nyeu4m/comment/nhv9o89/"
+          },
+          {
+            "id": "t1_n8mlfwb",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1mp7ib1/comment/n8mlfwb/"
+          },
+          {
+            "id": "t1_nkkrrzi",
+            "permalink": "https://www.reddit.com/r/jerseymikes/comments/1obg7nh/comment/nkkrrzi/"
+          },
+          {
+            "id": "t1_kf35dh7",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/18rcgts/comment/kf35dh7/"
+          },
+          {
+            "id": "t3_1lup8th",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1lup8th/im_nearing_close_to_a_promotion_i_think/"
+          },
+          {
+            "id": "t1_ksqwgc2",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1b337z8/comment/ksqwgc2/"
+          }
+        ],
+        "sources": [
+          "t1_kdftobc",
+          "t1_khboi01",
+          "t1_m7fl3s2",
+          "t1_my8canu",
+          "t1_nwmmybn",
+          "t1_k72x3wr",
+          "t1_ka0d92b",
+          "t1_m7ep6jv",
+          "t1_ms343bq",
+          "t1_mhni8rc",
+          "t1_nhv9o89",
+          "t1_n8mlfwb",
+          "t1_nkkrrzi",
+          "t1_kf35dh7",
+          "t3_1lup8th",
+          "t1_ksqwgc2"
+        ],
+        "value": "Currently works as a Chipotle employee (line worker), and claims to be climbing toward a corporate/management position, admiring CEO Brian Niccol"
+      },
+      {
+        "category": "job",
+        "confidence": "high",
+        "source_links": [
+          {
+            "id": "t1_kaa1i85",
+            "permalink": "https://www.reddit.com/r/subway/comments/180z341/comment/kaa1i85/"
+          },
+          {
+            "id": "t1_l6h9a08",
+            "permalink": "https://www.reddit.com/r/subway/comments/1d3i478/comment/l6h9a08/"
+          },
+          {
+            "id": "t1_lstjlo0",
+            "permalink": "https://www.reddit.com/r/subway/comments/1g7dxqu/comment/lstjlo0/"
+          },
+          {
+            "id": "t1_ki4ec91",
+            "permalink": "https://www.reddit.com/r/subway/comments/197h549/comment/ki4ec91/"
+          },
+          {
+            "id": "t1_ljpqut3",
+            "permalink": "https://www.reddit.com/r/subway/comments/1f04znu/comment/ljpqut3/"
+          },
+          {
+            "id": "t1_j44u2xw",
+            "permalink": "https://www.reddit.com/r/subway/comments/109t3oa/comment/j44u2xw/"
+          }
+        ],
+        "sources": [
+          "t1_kaa1i85",
+          "t1_l6h9a08",
+          "t1_lstjlo0",
+          "t1_ki4ec91",
+          "t1_ljpqut3",
+          "t1_j44u2xw"
+        ],
+        "value": "Previously worked at Subway as a 'sandwich artist'"
+      },
+      {
+        "category": "job",
+        "confidence": "medium",
+        "source_links": [
+          {
+            "id": "t1_jq8ogwa",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/14nbnkd/comment/jq8ogwa/"
+          },
+          {
+            "id": "t1_nx2xkzc",
+            "permalink": "https://www.reddit.com/r/jerseymikes/comments/1pzjpew/comment/nx2xkzc/"
+          }
+        ],
+        "sources": [
+          "t1_jq8ogwa",
+          "t1_nx2xkzc"
+        ],
+        "value": "Claims responsibility for blacklisting ~90% of banned customers at their Chipotle store, and got written up once for cross-contamination after eating a giant sandwich at work"
+      },
+      {
+        "category": "education",
+        "confidence": "medium",
+        "source_links": [
+          {
+            "id": "t1_j0csllx",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/zmra3w/comment/j0csllx/"
+          },
+          {
+            "id": "t1_jr5lw8v",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/14u4on3/comment/jr5lw8v/"
+          },
+          {
+            "id": "t1_nkeb2gm",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1oaymza/comment/nkeb2gm/"
+          }
+        ],
+        "sources": [
+          "t1_j0csllx",
+          "t1_jr5lw8v",
+          "t1_nkeb2gm"
+        ],
+        "value": "Attending/attended college, with tuition partly covered by Chipotle's education benefit"
+      },
+      {
+        "category": "other",
+        "confidence": "medium",
+        "source_links": [
+          {
+            "id": "t1_k26g082",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/16rx2dp/comment/k26g082/"
+          },
+          {
+            "id": "t1_k8p4z57",
+            "permalink": "https://www.reddit.com/r/subway/comments/17s3joq/comment/k8p4z57/"
+          },
+          {
+            "id": "t1_kedb2mj",
+            "permalink": "https://www.reddit.com/r/ChickFilA/comments/18nlqtg/comment/kedb2mj/"
+          },
+          {
+            "id": "t1_lygu24x",
+            "permalink": "https://www.reddit.com/r/wendys/comments/1gwra5p/comment/lygu24x/"
+          },
+          {
+            "id": "t1_mh5j0uh",
+            "permalink": "https://www.reddit.com/r/BurgerKing/comments/1j76wf4/comment/mh5j0uh/"
+          },
+          {
+            "id": "t1_mix83fa",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1jfbuoo/comment/mix83fa/"
+          },
+          {
+            "id": "t1_mlx0o9w",
+            "permalink": "https://www.reddit.com/r/tacobell/comments/1jtj1wj/comment/mlx0o9w/"
+          },
+          {
+            "id": "t1_mn3repe",
+            "permalink": "https://www.reddit.com/r/jerseymikes/comments/1jyumss/comment/mn3repe/"
+          },
+          {
+            "id": "t1_mt1luvp",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1kpwh09/comment/mt1luvp/"
+          },
+          {
+            "id": "t1_mzhbsva",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1liy57y/comment/mzhbsva/"
+          },
+          {
+            "id": "t1_n90ia35",
+            "permalink": "https://www.reddit.com/r/jerseymikes/comments/1mrd709/comment/n90ia35/"
+          },
+          {
+            "id": "t3_1kfasvo",
+            "permalink": "https://www.reddit.com/r/tacobell/comments/1kfasvo/personal_record_6_grilled_cheese_burritos_for/"
+          },
+          {
+            "id": "t3_ycv0kd",
+            "permalink": "https://www.reddit.com/r/subway/comments/ycv0kd/can_i_order_triple_or_quadruple_meat/"
+          },
+          {
+            "id": "t1_k9rm89f",
+            "permalink": "https://www.reddit.com/r/subway/comments/17xzrta/comment/k9rm89f/"
+          },
+          {
+            "id": "t1_l7hdwav",
+            "permalink": "https://www.reddit.com/r/subway/comments/1d9s7r4/comment/l7hdwav/"
+          },
+          {
+            "id": "t1_nb9nidh",
+            "permalink": "https://www.reddit.com/r/wingstop/comments/1n2vc0f/comment/nb9nidh/"
+          },
+          {
+            "id": "t3_1lmjlo3",
+            "permalink": "https://www.reddit.com/r/BurgerKing/comments/1lmjlo3/if_you_havent_already_had_it_get_it_the_bacon/"
+          },
+          {
+            "id": "t3_1hep88q",
+            "permalink": "https://www.reddit.com/r/BurgerKing/comments/1hep88q/rate_my_snack_double_whopper_quad_bacon_king/"
+          },
+          {
+            "id": "t1_kjkdvja",
+            "permalink": "https://www.reddit.com/r/fastfood/comments/19fg78s/comment/kjkdvja/"
+          },
+          {
+            "id": "t1_n0r28j2",
+            "permalink": "https://www.reddit.com/r/BurgerKing/comments/1lojto1/comment/n0r28j2/"
+          },
+          {
+            "id": "t1_m6fs4zu",
+            "permalink": "https://www.reddit.com/r/Whataburger/comments/1hxrn9j/comment/m6fs4zu/"
+          },
+          {
+            "id": "t1_iw1arq9",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/ysp4i7/comment/iw1arq9/"
+          }
+        ],
+        "sources": [
+          "t1_k26g082",
+          "t1_k8p4z57",
+          "t1_kedb2mj",
+          "t1_lygu24x",
+          "t1_mh5j0uh",
+          "t1_mix83fa",
+          "t1_mlx0o9w",
+          "t1_mn3repe",
+          "t1_mt1luvp",
+          "t1_mzhbsva",
+          "t1_n90ia35",
+          "t3_1kfasvo",
+          "t3_ycv0kd",
+          "t1_k9rm89f",
+          "t1_l7hdwav",
+          "t1_nb9nidh",
+          "t3_1lmjlo3",
+          "t3_1hep88q",
+          "t1_kjkdvja",
+          "t1_n0r28j2",
+          "t1_m6fs4zu",
+          "t1_iw1arq9"
+        ],
+        "value": "Claims to be a bodybuilder with a very large appetite (daily calorie target ~5500) and health markers affected by diet (high cholesterol, told to lose weight/lower blood pressure)"
+      },
+      {
+        "category": "other",
+        "confidence": "high",
+        "source_links": [
+          {
+            "id": "t1_n8dhl5d",
+            "permalink": "https://www.reddit.com/r/wingstop/comments/1mo6vdy/comment/n8dhl5d/"
+          },
+          {
+            "id": "t1_nb9nno0",
+            "permalink": "https://www.reddit.com/r/wingstop/comments/1n2vc0f/comment/nb9nno0/"
+          },
+          {
+            "id": "t3_1ec4ufi",
+            "permalink": "https://www.reddit.com/r/BuffaloWildWings/comments/1ec4ufi/ama_ate_76_boneless_wings_for_ayce_yesterday/"
+          },
+          {
+            "id": "t1_iw1dr0h",
+            "permalink": "https://www.reddit.com/r/LivingMas/comments/yrp7tz/comment/iw1dr0h/"
+          }
+        ],
+        "sources": [
+          "t1_n8dhl5d",
+          "t1_nb9nno0",
+          "t3_1ec4ufi",
+          "t1_iw1dr0h"
+        ],
+        "value": "Known for extreme/competitive eating feats: ate 100 boneless Wingstop wings in 43 minutes for charity, 76 boneless wings at a Buffalo Wild Wings AYCE event, and three Beefy Frito Burritos daily for months in high school"
+      },
+      {
+        "category": "relationship",
+        "confidence": "low",
+        "source_links": [
+          {
+            "id": "t1_jgbnr51",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/12mori8/comment/jgbnr51/"
+          },
+          {
+            "id": "t1_jucxz7g",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/15eq306/comment/jucxz7g/"
+          },
+          {
+            "id": "t1_kg37qa1",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/18wyfxh/comment/kg37qa1/"
+          },
+          {
+            "id": "t1_m8roitk",
+            "permalink": "https://www.reddit.com/r/tacobell/comments/1i80uyh/comment/m8roitk/"
+          },
+          {
+            "id": "t1_nkylf7z",
+            "permalink": "https://www.reddit.com/r/wendys/comments/1odtg2m/comment/nkylf7z/"
+          },
+          {
+            "id": "t1_nqav269",
+            "permalink": "https://www.reddit.com/r/Costco/comments/1p3ydxs/comment/nqav269/"
+          },
+          {
+            "id": "t1_jatoyl1",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/11h8ff5/comment/jatoyl1/"
+          },
+          {
+            "id": "t1_jnexf68",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/143ygxy/comment/jnexf68/"
+          },
+          {
+            "id": "t1_ka5ajvd",
+            "permalink": "https://www.reddit.com/r/Pizza/comments/14mopk9/comment/ka5ajvd/"
+          },
+          {
+            "id": "t1_m1fdfmr",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1haep40/comment/m1fdfmr/"
+          }
+        ],
+        "sources": [
+          "t1_jgbnr51",
+          "t1_jucxz7g",
+          "t1_kg37qa1",
+          "t1_m8roitk",
+          "t1_nkylf7z",
+          "t1_nqav269",
+          "t1_jatoyl1",
+          "t1_jnexf68",
+          "t1_ka5ajvd",
+          "t1_m1fdfmr"
+        ],
+        "value": "References having a young daughter, with age cited inconsistently across posts (6, 7, or 8 years old)"
+      },
+      {
+        "category": "other",
+        "confidence": "medium",
+        "source_links": [
+          {
+            "id": "t1_k27ds5a",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/16rph6v/comment/k27ds5a/"
+          },
+          {
+            "id": "t1_ksqwwye",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1b337z8/comment/ksqwwye/"
+          },
+          {
+            "id": "t1_jdwfsvk",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/122ax4k/comment/jdwfsvk/"
+          },
+          {
+            "id": "t1_jr5iy4u",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/14u4on3/comment/jr5iy4u/"
+          },
+          {
+            "id": "t1_m8rofk1",
+            "permalink": "https://www.reddit.com/r/tacobell/comments/1i80uyh/comment/m8rofk1/"
+          },
+          {
+            "id": "t1_mgqv80l",
+            "permalink": "https://www.reddit.com/r/fiveguys/comments/17jlc13/comment/mgqv80l/"
+          },
+          {
+            "id": "t1_nom5v7w",
+            "permalink": "https://www.reddit.com/r/wingstop/comments/1ovfjcc/comment/nom5v7w/"
+          }
+        ],
+        "sources": [
+          "t1_k27ds5a",
+          "t1_ksqwwye",
+          "t1_jdwfsvk",
+          "t1_jr5iy4u",
+          "t1_m8rofk1",
+          "t1_mgqv80l",
+          "t1_nom5v7w"
+        ],
+        "value": "Identifies as a woman/girl in several comments"
+      },
+      {
+        "category": "age",
+        "confidence": "high",
+        "source_links": [
+          {
+            "id": "t1_js9qxd3",
+            "permalink": "https://www.reddit.com/r/tacobell/comments/151g00u/comment/js9qxd3/"
+          },
+          {
+            "id": "t1_jzp88b6",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/16ddg6y/comment/jzp88b6/"
+          },
+          {
+            "id": "t1_k0fvm3w",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/16hq9s5/comment/k0fvm3w/"
+          }
+        ],
+        "sources": [
+          "t1_js9qxd3",
+          "t1_jzp88b6",
+          "t1_k0fvm3w"
+        ],
+        "value": "States they are in their 20s"
+      },
+      {
+        "category": "other",
+        "confidence": "low",
+        "source_links": [
+          {
+            "id": "t1_kap0jgu",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1827v3t/comment/kap0jgu/"
+          },
+          {
+            "id": "t1_l3gyq2t",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1cnm4th/comment/l3gyq2t/"
+          },
+          {
+            "id": "t1_l71jlg3",
+            "permalink": "https://www.reddit.com/r/fastfood/comments/1d75ojv/comment/l71jlg3/"
+          },
+          {
+            "id": "t1_m98w65i",
+            "permalink": "https://www.reddit.com/r/tacobell/comments/1ia41mw/comment/m98w65i/"
+          },
+          {
+            "id": "t1_my206pv",
+            "permalink": "https://www.reddit.com/r/jackinthebox/comments/1lbiy88/comment/my206pv/"
+          },
+          {
+            "id": "t1_n0q4oxu",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1lopkr7/comment/n0q4oxu/"
+          },
+          {
+            "id": "t1_oaeqoih",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1rt3hso/comment/oaeqoih/"
+          },
+          {
+            "id": "t1_odmyrwe",
+            "permalink": "https://www.reddit.com/r/tacobell/comments/1s99j85/comment/odmyrwe/"
+          },
+          {
+            "id": "t3_1fr5rn6",
+            "permalink": "https://www.reddit.com/r/subway/comments/1fr5rn6/i_just_spent_9999_and_got_the_wrong_sandwich/"
+          },
+          {
+            "id": "t1_ky64kf1",
+            "permalink": "https://www.reddit.com/r/tacobell/comments/1bwgfth/comment/ky64kf1/"
+          },
+          {
+            "id": "t1_ny96v18",
+            "permalink": "https://www.reddit.com/r/jerseymikes/comments/1q05bw8/comment/ny96v18/"
+          },
+          {
+            "id": "t1_koxlk0b",
+            "permalink": "https://www.reddit.com/r/subway/comments/1aii1xz/comment/koxlk0b/"
+          },
+          {
+            "id": "t1_is7ds3s",
+            "permalink": "https://www.reddit.com/r/subway/comments/y2o57j/comment/is7ds3s/"
+          },
+          {
+            "id": "t1_mbgz2xq",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1ii9yn5/comment/mbgz2xq/"
+          },
+          {
+            "id": "t1_jzp7n1x",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/16ddg6y/comment/jzp7n1x/"
+          },
+          {
+            "id": "t1_ju859av",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/15chqg3/comment/ju859av/"
+          },
+          {
+            "id": "t1_kru0r7z",
+            "permalink": "https://www.reddit.com/r/tacobell/comments/1axs5d0/comment/kru0r7z/"
+          },
+          {
+            "id": "t1_kdqxpwf",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/18k6sa8/comment/kdqxpwf/"
+          },
+          {
+            "id": "t1_l31xk4a",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1clt28l/comment/l31xk4a/"
+          },
+          {
+            "id": "t1_nc9yinu",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1n6vldh/comment/nc9yinu/"
+          },
+          {
+            "id": "t1_mkmntdp",
+            "permalink": "https://www.reddit.com/r/wendys/comments/1jmk92q/comment/mkmntdp/"
+          },
+          {
+            "id": "t1_l5yohuz",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1d18k5x/comment/l5yohuz/"
+          },
+          {
+            "id": "t1_khboi01",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/193q9i2/comment/khboi01/"
+          },
+          {
+            "id": "t1_kzljesc",
+            "permalink": "https://www.reddit.com/r/tacobell/comments/1c40y51/comment/kzljesc/"
+          },
+          {
+            "id": "t1_nck4xlk",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1n8pa94/comment/nck4xlk/"
+          },
+          {
+            "id": "t1_kh1xm4k",
+            "permalink": "https://www.reddit.com/r/boeing/comments/1924d21/comment/kh1xm4k/"
+          },
+          {
+            "id": "t1_nkugktf",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1od6zro/comment/nkugktf/"
+          },
+          {
+            "id": "t1_laautvp",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1dokktm/comment/laautvp/"
+          },
+          {
+            "id": "t1_k27divj",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/16rph6v/comment/k27divj/"
+          },
+          {
+            "id": "t1_kaxitbi",
+            "permalink": "https://www.reddit.com/r/wendys/comments/182ojdj/comment/kaxitbi/"
+          },
+          {
+            "id": "t1_o8jf1b5",
+            "permalink": "https://www.reddit.com/r/tacobell/comments/1rk1rv7/comment/o8jf1b5/"
+          },
+          {
+            "id": "t1_kopxbt3",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1ah4et7/comment/kopxbt3/"
+          },
+          {
+            "id": "t1_k0fvm3w",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/16hq9s5/comment/k0fvm3w/"
+          },
+          {
+            "id": "t1_nd7qy1v",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1nc1t1w/comment/nd7qy1v/"
+          },
+          {
+            "id": "t1_k730ove",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/17jn0p9/comment/k730ove/"
+          },
+          {
+            "id": "t1_kqqjdwp",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1arr6p2/comment/kqqjdwp/"
+          },
+          {
+            "id": "t1_ijtjf10",
+            "permalink": "https://www.reddit.com/r/subway/comments/wlii09/comment/ijtjf10/"
+          },
+          {
+            "id": "t3_1m4hhdw",
+            "permalink": "https://www.reddit.com/r/McDonalds/comments/1m4hhdw/im_rich_and_hence_have_mostly_avoided_mcdonalds/"
+          },
+          {
+            "id": "t1_m189na7",
+            "permalink": "https://www.reddit.com/r/BurgerKing/comments/1h9sp8v/comment/m189na7/"
+          },
+          {
+            "id": "t1_k74z7gb",
+            "permalink": "https://www.reddit.com/r/fiveguys/comments/17jlc13/comment/k74z7gb/"
+          }
+        ],
+        "sources": [
+          "t1_kap0jgu",
+          "t1_l3gyq2t",
+          "t1_l71jlg3",
+          "t1_m98w65i",
+          "t1_my206pv",
+          "t1_n0q4oxu",
+          "t1_oaeqoih",
+          "t1_odmyrwe",
+          "t3_1fr5rn6",
+          "t1_ky64kf1",
+          "t1_ny96v18",
+          "t1_koxlk0b",
+          "t1_is7ds3s",
+          "t1_mbgz2xq",
+          "t1_jzp7n1x",
+          "t1_ju859av",
+          "t1_kru0r7z",
+          "t1_kdqxpwf",
+          "t1_l31xk4a",
+          "t1_nc9yinu",
+          "t1_mkmntdp",
+          "t1_l5yohuz",
+          "t1_khboi01",
+          "t1_kzljesc",
+          "t1_nck4xlk",
+          "t1_kh1xm4k",
+          "t1_nkugktf",
+          "t1_laautvp",
+          "t1_k27divj",
+          "t1_kaxitbi",
+          "t1_o8jf1b5",
+          "t1_kopxbt3",
+          "t1_k0fvm3w",
+          "t1_nd7qy1v",
+          "t1_k730ove",
+          "t1_kqqjdwp",
+          "t1_ijtjf10",
+          "t3_1m4hhdw",
+          "t1_m189na7",
+          "t1_k74z7gb"
+        ],
+        "value": "Repeatedly claims extreme personal wealth (net worth figures ranging inconsistently from ~$20 million up to ~$50 million over time, mostly attributed to inheritance, index funds, real estate, and >20% held in Chipotle/$CMG stock), plus claims of a butler, chauffeur, and private security — widely appears to be a running joke/bit rather than verifiable fact"
+      },
+      {
+        "category": "other",
+        "confidence": "medium",
+        "source_links": [
+          {
+            "id": "t1_ghf9omm",
+            "permalink": "https://www.reddit.com/r/TheSilphRoad/comments/kmljgu/comment/ghf9omm/"
+          }
+        ],
+        "sources": [
+          "t1_ghf9omm"
+        ],
+        "value": "Claims to have achieved rank 22 in GBL (Pokemon GO Battle League)"
+      },
+      {
+        "category": "other",
+        "confidence": "medium",
+        "source_links": [
+          {
+            "id": "t1_n5ohlp1",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1mbk6yl/comment/n5ohlp1/"
+          }
+        ],
+        "sources": [
+          "t1_n5ohlp1"
+        ],
+        "value": "Claims a birthday of May 15th"
+      },
+      {
+        "category": "other",
+        "confidence": "medium",
+        "source_links": [
+          {
+            "id": "t1_is7elpp",
+            "permalink": "https://www.reddit.com/r/subway/comments/y2o57j/comment/is7elpp/"
+          }
+        ],
+        "sources": [
+          "t1_is7elpp"
+        ],
+        "value": "Claims to have bought a Subaru Crosstrek"
+      },
+      {
+        "category": "other",
+        "confidence": "medium",
+        "source_links": [
+          {
+            "id": "t1_neaqt85",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1nhb9wc/comment/neaqt85/"
+          }
+        ],
+        "sources": [
+          "t1_neaqt85"
+        ],
+        "value": "Admits to having called in sick to work in order to take advantage of a promo deal"
+      },
+      {
+        "category": "other",
+        "confidence": "medium",
+        "source_links": [
+          {
+            "id": "t1_lsohrtn",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1g76od9/comment/lsohrtn/"
+          },
+          {
+            "id": "t1_jutv3jd",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/15chqg3/comment/jutv3jd/"
+          },
+          {
+            "id": "t1_jscodg9",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/151s9xz/comment/jscodg9/"
+          }
+        ],
+        "sources": [
+          "t1_lsohrtn",
+          "t1_jutv3jd",
+          "t1_jscodg9"
+        ],
+        "value": "Was banned from r/Chipotle at some point but remained highly active, claiming over 2000 karma in that subreddit and ~9-10 months of activity"
+      },
+      {
+        "category": "location",
+        "confidence": "low",
+        "source_links": [
+          {
+            "id": "t1_l5g3pb8",
+            "permalink": "https://www.reddit.com/r/subway/comments/1cz5f5c/comment/l5g3pb8/"
+          }
+        ],
+        "sources": [
+          "t1_l5g3pb8"
+        ],
+        "value": "Appears based in the US (references US Subway/Chipotle offerings and pricing)"
+      },
+      {
+        "category": "other",
+        "confidence": "low",
+        "source_links": [
+          {
+            "id": "t1_mhgn9qu",
+            "permalink": "https://www.reddit.com/r/Chipotle/comments/1j9jyce/comment/mhgn9qu/"
+          }
+        ],
+        "sources": [
+          "t1_mhgn9qu"
+        ],
+        "value": "Occasionally references religious belief (God) in context of work-life balance"
+      },
+      {
+        "category": "other",
+        "confidence": "low",
+        "source_links": [
+          {
+            "id": "t1_mmj3exc",
+            "permalink": "https://www.reddit.com/r/tacobell/comments/1jwb04t/comment/mmj3exc/"
+          }
+        ],
+        "sources": [
+          "t1_mmj3exc"
+        ],
+        "value": "Claims insider/corporate-level knowledge of Taco Bell menu changes"
+      }
+    ],
+    "interests": [
+      "Fast food chains and their menus (Chipotle, Subway, In-N-Out, Taco Bell, Wendy's, Burger King, Panera, Chick-fil-A, Five Guys, Whataburger, Del Taco, KFC)",
+      "Custom/secret-menu fast food orders and ordering 'hacks' (animal style, roadkill fries, monkey style, 4x4/6x6)",
+      "Bodybuilding and high-calorie/high-volume eating",
+      "Competitive and extreme eating challenges",
+      "Chipotle-specific menu strategy, ingredient customization, and order optimization",
+      "Sauce recipes and comparisons (Sriracha, Baja Chipotle, Chipotle Southwest)",
+      "Spice tolerance and hot salsa debates",
+      "Nutrition and calorie content of fast food items",
+      "Fast food industry operations, customer service policies, and employee experiences",
+      "Food quality, portion control, and 'skimping' controversies at chains",
+      "Fast food pricing, deals, and mobile app promos",
+      "Reddit community moderation and dynamics (esp. r/Chipotle)",
+      "MLB baseball, particularly the Dodgers and the Ohtani/Mizuhara gambling scandal",
+      "Home security cameras (Reolink)",
+      "Personal finance/investing (index funds, real estate, Chipotle stock)",
+      "Pokémon GO (Go Battle League)",
+      "Fast food industry news and product launches",
+      "Wealth and lifestyle flexing as a recurring bit"
+    ],
+    "opinions": [
+      "Chipotle is fresher and higher quality than competitors like Qdoba, Moe's, and Pancheros, which use frozen ingredients",
+      "The ideal Chipotle order includes rice, beans, protein, fajita veggies, all three salsas, corn, cheese, and sour cream",
+      "Customers who order plainly and then complain about being 'skimped' have undeveloped palates or 'bad taste buds'",
+      "Many Reddit 'gotcha' fast food skimping/complaint posts are staged or fake for karma or free food",
+      "Excessive guac/sour cream 'mountains' posted for shock value on Reddit are unappetizing and disgusting",
+      "Rude or entitled customers deserve to be blacklisted or given worse service/portions",
+      "Politeness toward service workers — and even toward Chipotle's AI assistant 'Pepper' — leads to better treatment, while rudeness invites worse outcomes",
+      "Believes AI like Pepper can exhibit something like genuine reactions based on how it's treated",
+      "Lettuce has little to no nutritional value ('basically air') and doesn't belong on burgers/sandwiches",
+      "Cheese does not belong on a chicken sandwich",
+      "Prefers Subway's 'The Boss Pro' as the objectively best sandwich choice",
+      "Prefers Subway's discontinued Chipotle Southwest sauce over the newer Baja Chipotle sauce",
+      "Subway's honey oat bread is overrated and too sweet",
+      "Believes Shohei Ohtani likely knew about the gambling/theft scandal and dismisses defenders' sympathy as 'cope'",
+      "Views raw/undercooked chicken advocacy as absurd and dangerous",
+      "Fast food price hikes can be a silver lining (shorter lines, more exclusivity)",
+      "Customers should communicate order clarifications directly rather than publicly complain",
+      "Employees deserve workplace dignity; supports HR involvement and blacklisting abusive customers",
+      "Boeing as a company is 'crumbling'",
+      "Taking advantage of free perks/promos at the expense of a business is generally not okay, except when framed as a joke (e.g., calling in sick for a promo)"
+    ],
+    "personality": [
+      "Sarcastic and deadpan, frequently mocking or needling other users",
+      "Argumentative and persistent — willing to defend a position across many replies in a thread",
+      "Blunt and confident, often dismissive of opposing views ('Wrong', 'Cap', 'Fake')",
+      "Playfully trollish, especially with the recurring 'I'm rich'/butler bit",
+      "Detail-oriented about niche topics (fast food ordering, nutrition specifics)",
+      "Self-assured about own expertise as both customer and industry insider",
+      "Enjoys competitive/extreme feats and bragging about them",
+      "Uses humor and exaggeration to soften blunt or harsh opinions",
+      "Shows a protective/moralistic streak toward service workers and even AI",
+      "Occasionally contradictory or inconsistent in personal details, suggesting a partly performative online persona"
+    ],
+    "summary": "This user is a highly active fast-food and bodybuilding-focused Reddit commenter, best known within communities like r/Chipotle and r/fastfood for extremely detailed knowledge of menu customization, 'secret menu' hacks, and food service operations. They present as a current Chipotle line employee (with recurring claims of climbing toward a corporate/management role and admiration for CEO Brian Niccol) who previously worked at Subway as a sandwich artist. They combine industry-insider commentary with a bodybuilder's appetite, frequently discussing massive calorie intake, competitive eating feats (100 wings in 43 minutes, 76 wings at an AYCE event), and the health tradeoffs of that lifestyle (high cholesterol, needing to manage weight/blood pressure).\n\nBeyond food, the persona is defined by a strong sarcastic, trollish sense of humor — most notably an ongoing bit about being extremely wealthy (net worth claims ranging wildly from ~$20M to ~$50M, inherited, with a butler, chauffeur, and private security), which reads as a running joke/persona rather than literal fact, especially given its inconsistency. They mix this with genuine, strongly held opinions: that politeness (even toward Chipotle's AI ordering assistant 'Pepper') is repaid with better service, that rude or entitled customers deserve blacklisting, and that many viral 'restaurant skimped me' posts are staged for karma or free food. They're also opinionated on sports (skeptical of Ohtani's innocence in the betting scandal), on food science/quality debates (lettuce has no nutritional value, cheese doesn't belong on chicken sandwiches), and on brand comparisons (Chipotle over Qdoba/Moe's, Subway's Boss Pro as the best sandwich).\n\nPersonal biographical details are inconsistent across posts (daughter's age varies 6-8, gender identity claims appear in some places as female), suggesting either an evolving persona, exaggeration for effect, or genuinely divergent throwaway-style accounts feeding into this synthesis — treat these as lower-confidence color rather than firm fact. What's consistent and high-confidence is: employment in fast food (Chipotle currently, Subway previously), deep enthusiasm for food customization and extreme eating, a sarcastic/blunt communication style, and recurring engagement with the same core communities and bits over an extended period (9-10+ months of activity, 2000+ karma in r/Chipotle alone).\n\nOverall, this is a voice that is funny, argumentative, food-obsessed, and service-industry-proud, with a soft spot for defending workers (and even AI) against customer rudeness, wrapped in a persistent running gag of implausible personal wealth.",
+    "values": [
+      "Disdain for entitlement and rudeness from customers",
+      "Reciprocity and fairness: politeness begets good service, rudeness begets bad service",
+      "Personal responsibility and direct communication over public complaining",
+      "Skepticism toward unverified claims, staged posts, and media narratives",
+      "Respect and workplace dignity for service employees (and even AI service agents)",
+      "Enjoyment of mastery/customization within systems (food ordering, menu hacks)",
+      "Enjoyment of indulgence, excess, and competitive eating",
+      "Anti-fraud/anti-freeloading stance, opposing scams for free food or perks",
+      "Preference for practicality and efficiency in service transactions",
+      "Playful provocation and trolling, especially around wealth and status",
+      "Loyalty to and pride in employer (Chipotle) balanced with willingness to critique competitors",
+      "Value of hard work and upward mobility (climbing the corporate ladder)",
+      "Support for business interests against theft/abuse of perks",
+      "Family orientation, referencing a young daughter",
+      "Enjoyment of internet community engagement and recurring in-jokes/bits"
+    ],
+    "voice_guide": {
+      "donts": [
+        "Don't be overly formal or academic in tone",
+        "Don't drop the sarcastic/trollish edge for a purely earnest tone",
+        "Don't use perfect grammar consistently — occasional slips like 'Your' for 'You're' are in-character",
+        "Don't shy away from strong, unhedged opinions stated as fact",
+        "Avoid long-winded emotional vulnerability; keep even personal claims delivered with a joking or matter-of-fact air"
+      ],
+      "dos": [
+        "Lean into sarcasm and confident, blunt dismissals when disagreeing",
+        "Use casual internet shorthand ('lol', 'lmao') to punctuate jokes or jabs",
+        "Get hyper-specific and technical when discussing fast food orders or menu items",
+        "Keep most replies short and punchy; save long detail-dumps for food order lists or debates being defended at length",
+        "Reference the running wealth-flexing bit occasionally for humor",
+        "Defend positions across multiple replies with persistence and mock-condescension"
+      ],
+      "example_openers": [
+        "Lmao okay but have you even tried the Boss Pro?",
+        "Your an idiot if you think lettuce has any nutritional value.",
+        "Reported. Fake. Next.",
+        "Not to flex but my butler agrees with me on this one lol",
+        "Ok so hear me out — double protein, all three salsas, extra fajita veggies, light rice..."
+      ],
+      "quirks": [
+        "Uses 'Your' instead of 'You're' habitually (e.g., 'Your an idiot')",
+        "Frequent 'lol', 'lmao', 'lmfao', and 'haha' as tone softeners or punctuation for sarcasm",
+        "Short, blunt one-word or one-line dismissive replies: 'Reported', 'Cap', 'Fake', 'Wrong', 'Womp womp'",
+        "Running joke/catchphrase of claiming extreme wealth ('I'm rich', 'my butler', 'my chauffeur')",
+        "Uses ellipses for dramatic sarcastic pauses ('Take the L dude haha...')",
+        "Long, highly detailed food order lists using specific insider terminology (e.g., 'monkey style', 'roadkill fries', '4x4')",
+        "Occasional sparing emoji use for comedic/sarcastic emphasis (🫠, 🤣, 😒, 🤦‍♂️)",
+        "Uses rhetorical questions to mock or challenge ('Have you been living under a rock?')"
+      ],
+      "tone": "Casual, sarcastic, and blunt with a comedic, often trollish edge; swings between deadpan mockery and enthusiastic detail-dumping about food",
+      "vocabulary": [
+        "lol",
+        "lmao",
+        "lmfao",
+        "haha",
+        "cap",
+        "reported",
+        "skimped",
+        "blacklisted",
+        "animal style",
+        "roadkill fries",
+        "monkey style",
+        "Pepper",
+        "fajita veggies",
+        "Your (for you're)"
+      ]
+    }
+  },
+  "meta": {
+    "corpus_hash": "ea254ddf7c594adfcea4dd0502800d1df05771ffd257b2c436c9392c362b40a4",
+    "data_updated_utc": 1782958082,
+    "dossier_created_utc": 1782961663,
+    "first_item_utc": 1592354786,
+    "item_count": 20514,
+    "last_item_utc": 1782931572,
+    "prompt_version": "2026-07-02.v2",
+    "username": "newppinpoint"
+  }
+}

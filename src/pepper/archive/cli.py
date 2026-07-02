@@ -182,6 +182,19 @@ def report() -> None:
 
 
 @archive_app.command()
+def webexport() -> None:
+    """Emit deterministic JSON + media for the Next.js app in web/."""
+    s = _settings()
+
+    def run():
+        conn = _open(s)
+        _emit(pipeline.webexport(s, conn))
+        conn.close()
+
+    _guard(run)
+
+
+@archive_app.command()
 def export(fmt: str = typer.Option("parquet", "--format", "-f", help="parquet | csv | json")) -> None:
     """Export core tables to Parquet/CSV/JSON."""
     s = _settings()
