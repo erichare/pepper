@@ -9,7 +9,7 @@ from __future__ import annotations
 import json
 
 # bump when prompts/schema change — invalidates the map + dossier caches
-PROMPT_VERSION = "2026-07-01.v1"
+PROMPT_VERSION = "2026-07-02.v2"
 
 _FACT_CATEGORIES = ["age", "location", "job", "education", "relationship", "life_event", "health", "other"]
 
@@ -93,19 +93,30 @@ REDUCE_TOOL = {
 
 _MAP_SYSTEM = (
     "You are building a factual profile of a single Reddit user from their OWN posts and "
-    "comments (the account owner authorized this). Analyze only the provided batch. Extract "
-    "interests, opinions, values, voice/style traits, and any self-disclosed biographical facts. "
-    "For every biographical fact, cite the exact item id it came from; only use ids present in "
-    "this batch. Be precise and do not speculate beyond the text. Call the record_findings tool."
+    "comments (the account owner authorized this). Analyze only the provided batch and call the "
+    "record_findings tool, POPULATING ALL FIVE fields — do not omit any:\n"
+    "- interests: topics/hobbies/domains they clearly engage with\n"
+    "- opinions: distinct stances they express\n"
+    "- values: underlying principles evident in the writing\n"
+    "- voice_traits: CONCRETE style observations — capitalization, punctuation, emoji/slang use, "
+    "sentence length, humor, tone, formatting habits. Always provide several.\n"
+    "- claimed_facts: self-disclosed biographical facts, each citing the exact item id it came "
+    "from (only ids present in this batch)\n"
+    "Be precise and do not speculate beyond the text, but always fill voice_traits and values."
 )
 
 _REDUCE_SYSTEM = (
-    "You are synthesizing a single, coherent persona dossier from many per-batch findings about "
-    "one Reddit user (the account owner authorized this profile of their own account). Merge and "
-    "deduplicate interests/opinions/values/voice traits. Consolidate duplicate biographical facts, "
-    "unioning ALL their citing source ids into the sources array. Never invent a source id that "
-    "was not provided. Produce a voice guide usable to imitate this person's writing. "
-    "Call the synthesize_dossier tool."
+    "You are synthesizing ONE coherent persona dossier from many per-batch findings about a single "
+    "Reddit user (the account owner authorized this profile of their own account). Call the "
+    "synthesize_dossier tool and POPULATE EVERY FIELD — never leave one empty:\n"
+    "- summary: a 2-4 paragraph prose overview of who this person is (always write this)\n"
+    "- interests, opinions, values: merged and deduplicated across all batches (~15-20 most salient each)\n"
+    "- personality: concrete personality traits you infer from the writing\n"
+    "- voice_guide: BUILD this from the voice_traits/style evidence — tone, quirks, signature "
+    "vocabulary, dos, donts, and example_openers written in the user's actual voice\n"
+    "- biographical_facts: consolidate duplicates, unioning ALL citing source ids into `sources`; "
+    "never invent a source id that was not provided\n"
+    "If evidence for a field is thin, give your best inference rather than omitting it."
 )
 
 
