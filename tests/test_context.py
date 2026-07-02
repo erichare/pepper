@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from pepper.archive.context import fetch_context
+from pepper.archive.errors import SourceError
 from pepper.archive.models import ItemType, NormalizedItem
 
 
@@ -55,3 +56,45 @@ def test_context_skipped_without_praw(repo):
     stats = fetch_context(repo, None)  # no API configured
     assert stats["fetched"] == 0
     assert not repo.context_exists("t3_p2")
+
+
+class FlakySource:
+    """Yields parents until it raises SourceError (simulates a throttle)."""
+
+    def __init__(self, mapping: dict[str, dict], fail_after: int):
+        self.mapping = mapping
+        self.fail_after = fail_after
+
+    def fetch_by_fullnames(self, fullnames):
+        yielded = 0
+        for fn in sorted(fullnames):
+            if yielded >= self.fail_after:
+                raise SourceError("throttled")
+            data = self.mapping.get(fn)
+            if data:
+                yield fn, data, ItemType.SUBMISSION
+                yielded += 1
+
+
+def _post_data(pid):
+    return {"id": pid.split("_")[1], "name": pid, "title": f"post {pid}", "author": "op",
+            "subreddit": "test", "created_utc": 900}
+
+
+def test_context_is_resumable_after_source_error(repo):
+    # three comments, three distinct submission parents
+    parents = ["t3_pa", "t3_pb", "t3_pc"]
+    for i, p in enumerate(parents):
+        _comment(repo, f"t1_r{i}", p, p)
+    mapping = {p: _post_data(p) for p in parents}
+
+    # first pass fails after persisting 2 parents; progress must be kept (not rolled back)
+    stats1 = fetch_context(repo, FlakySource(mapping, fail_after=2), commit_every=1)
+    assert stats1["fetched"] == 2
+    persisted = [p for p in parents if repo.context_exists(p)]
+    assert len(persisted) == 2  # committed despite the later failure
+
+    # second pass only needs the remaining parent and completes
+    stats2 = fetch_context(repo, FlakySource(mapping, fail_after=99), commit_every=1)
+    assert stats2["fetched"] == 1
+    assert all(repo.context_exists(p) for p in parents)
