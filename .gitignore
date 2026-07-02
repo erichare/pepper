@@ -1,0 +1,31 @@
+# Secrets & environment
+.env
+.env.*
+!.env.example
+
+# All collected data, media, exports, dossier artifacts stay local
+data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# NLTK / model caches if placed at repo root
+nltk_data/
+
+# OS
+.DS_Store
