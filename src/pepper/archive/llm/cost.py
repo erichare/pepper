@@ -5,9 +5,11 @@ from __future__ import annotations
 from ..config import Settings
 
 BATCH_DISCOUNT = 0.5
-# per-chunk output cap for the map stage (structured JSON is bounded)
-MAP_MAX_OUTPUT_TOKENS = 1500
-REDUCE_MAX_OUTPUT_TOKENS = 4000
+# Per-chunk output cap for the map stage. Must be generous: a chunk covers a few
+# hundred comments and the structured output (interests/opinions/values/voice/
+# facts) was being truncated at 1500, silently dropping the later fields.
+MAP_MAX_OUTPUT_TOKENS = 4000
+REDUCE_MAX_OUTPUT_TOKENS = 8000
 
 
 def estimate_tokens(text: str | None) -> int:

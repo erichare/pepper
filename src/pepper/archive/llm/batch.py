@@ -28,6 +28,17 @@ def _extract_tool_input(message, tool_name: str) -> dict | None:
     return None
 
 
+_MAP_LIST_KEYS = ("interests", "opinions", "values", "voice_traits", "claimed_facts")
+
+
+def _normalize_map_findings(findings: dict) -> dict:
+    """Default any list field the map model omitted (e.g. voice_traits)."""
+    for k in _MAP_LIST_KEYS:
+        if not isinstance(findings.get(k), list):
+            findings[k] = []
+    return findings
+
+
 def _validate_facts(findings: dict, allowed_ids: set[str]) -> dict:
     facts = findings.get("claimed_facts") or []
     kept = [f for f in facts if f.get("source_id") in allowed_ids]
@@ -87,7 +98,7 @@ def run_map(client, conn, chunks: list[list[dict]], model: str) -> list[dict]:
         if findings is None:
             conn.execute("UPDATE llm_chunks SET status='error' WHERE chunk_id=?", (cid,))
             continue
-        findings = _validate_facts(findings, id_sets.get(cid, set()))
+        findings = _normalize_map_findings(_validate_facts(findings, id_sets.get(cid, set())))
         usage = getattr(result.message, "usage", None)
         conn.execute(
             "UPDATE llm_chunks SET status='done', result_json=?, input_tokens=?, output_tokens=? WHERE chunk_id=?",
@@ -103,19 +114,27 @@ def run_map(client, conn, chunks: list[list[dict]], model: str) -> list[dict]:
     return cached + new_findings
 
 
+# Reduce in a single call while the serialized findings stay well under the model
+# context window; only fall back to hierarchical merging for very large corpora.
+# (Hierarchical merging re-reduces already-synthesized dossiers, which is lossier,
+# so we avoid it when a single pass fits.)
+_REDUCE_INPUT_TOKEN_BUDGET = 150_000
+
+
 def run_reduce(client, findings: list[dict], model: str) -> dict:
-    """Hierarchically synthesize the final dossier from per-chunk findings."""
+    """Synthesize the final dossier from per-chunk findings."""
+    findings = [f for f in findings if f]
     if not findings:
         raise ValueError("no findings to reduce")
 
-    group_size = 30
-    if len(findings) <= group_size:
+    approx_tokens = len(json.dumps(findings)) // 4
+    if approx_tokens <= _REDUCE_INPUT_TOKEN_BUDGET:
         return _reduce_once(client, findings, model)
 
+    group_size = 40
     intermediates: list[dict] = []
     for i in range(0, len(findings), group_size):
-        group = findings[i : i + group_size]
-        intermediates.append(_reduce_once(client, group, model))
+        intermediates.append(_reduce_once(client, findings[i : i + group_size], model))
         log.info("reduce_group", done=len(intermediates))
     return _reduce_once(client, intermediates, model)
 
@@ -126,7 +145,28 @@ def _reduce_once(client, findings: list[dict], model: str) -> dict:
     dossier = _extract_tool_input(message, "synthesize_dossier")
     if dossier is None:
         raise RuntimeError("reduce did not return a synthesize_dossier tool call")
-    return dossier
+    return _normalize_dossier(dossier)
+
+
+_DOSSIER_LIST_KEYS = ("interests", "opinions", "values", "personality", "biographical_facts")
+_VOICE_LIST_KEYS = ("quirks", "vocabulary", "dos", "donts", "example_openers")
+
+
+def _normalize_dossier(d: dict) -> dict:
+    """Default any field the model omitted so the report never renders blanks/crashes."""
+    d.setdefault("summary", "")
+    for k in _DOSSIER_LIST_KEYS:
+        if not isinstance(d.get(k), list):
+            d[k] = []
+    vg = d.get("voice_guide")
+    if not isinstance(vg, dict):
+        vg = {}
+    vg.setdefault("tone", "")
+    for k in _VOICE_LIST_KEYS:
+        if not isinstance(vg.get(k), list):
+            vg[k] = []
+    d["voice_guide"] = vg
+    return d
 
 
 def _poll_batch(client, batch_id: str) -> None:
