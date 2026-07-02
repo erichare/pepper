@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import time
+from collections import Counter
 
 from ..logging import get_logger
 from .corpus import chunk_id as compute_chunk_id
@@ -115,11 +116,13 @@ def run_map(client, conn, chunks: list[list[dict]], model: str) -> list[dict]:
     return cached + new_findings
 
 
-# Small reduce inputs matter: when asked to synthesize from many findings at once,
-# the model reliably fills the big list fields but tends to skip summary/voice_guide.
-# Reducing in small groups (each call sees few findings) makes it populate every
-# field; a final pass then merges the complete intermediates.
-_REDUCE_GROUP_SIZE = 12
+# The model returns empty/partial output when handed many findings at once, so we
+# do NOT ask it to aggregate. Instead we deduplicate the map findings
+# programmatically (frequency-ranked) into ONE compact digest, then run a single
+# synthesis over that small input — which reliably fills every field.
+_DIGEST_CAPS = {"interests": 30, "opinions": 30, "values": 20, "voice_traits": 25}
+_DIGEST_FACT_CAP = 80
+_TALLY_KEYS = ("interests", "opinions", "values", "voice_traits")
 
 
 def run_reduce(client, findings: list[dict], model: str) -> dict:
@@ -127,18 +130,60 @@ def run_reduce(client, findings: list[dict], model: str) -> dict:
     findings = [f for f in findings if f]
     if not findings:
         raise ValueError("no findings to reduce")
+    digest = digest_findings(findings)
+    log.info(
+        "reduce_digest",
+        interests=len(digest["interests"]),
+        facts=len(digest["claimed_facts"]),
+    )
+    return _reduce_once(client, [digest], model)
 
-    if len(findings) <= _REDUCE_GROUP_SIZE:
-        return _reduce_once(client, findings, model)
 
-    intermediates: list[dict] = []
-    for i in range(0, len(findings), _REDUCE_GROUP_SIZE):
-        intermediates.append(_reduce_once(client, findings[i : i + _REDUCE_GROUP_SIZE], model))
-        log.info("reduce_group", done=len(intermediates), total=len(findings))
-    # merge the complete intermediates (few inputs -> all fields populated)
-    if len(intermediates) <= _REDUCE_GROUP_SIZE:
-        return _reduce_once(client, intermediates, model)
-    return run_reduce(client, intermediates, model)
+def digest_findings(findings: list[dict]) -> dict:
+    """Collapse many map-findings into one compact, frequency-ranked finding.
+
+    Deterministic and LLM-free: dedupes list items case-insensitively (ranked by
+    how many chunks mention them) and consolidates claimed_facts by value while
+    unioning their source ids.
+    """
+    tallies: dict[str, Counter] = {k: Counter() for k in _TALLY_KEYS}
+    originals: dict[str, dict] = {k: {} for k in _TALLY_KEYS}
+    facts: dict[tuple, dict] = {}
+
+    for f in findings:
+        for k in _TALLY_KEYS:
+            for v in f.get(k, []) or []:
+                key = str(v).strip().lower()
+                if not key:
+                    continue
+                tallies[k][key] += 1
+                originals[k].setdefault(key, str(v))
+        for fact in f.get("claimed_facts", []) or []:
+            if not isinstance(fact, dict):
+                continue
+            value = str(fact.get("value", "")).strip()
+            if not value:
+                continue
+            fkey = (str(fact.get("category", "other")), value.lower())
+            entry = facts.setdefault(
+                fkey,
+                {"category": fact.get("category", "other"), "value": value,
+                 "confidence": fact.get("confidence", "low"), "sources": set()},
+            )
+            if fact.get("source_id"):
+                entry["sources"].add(fact["source_id"])
+
+    digest: dict = {}
+    for k, cap in _DIGEST_CAPS.items():
+        digest[k] = [originals[k][key] for key, _ in tallies[k].most_common(cap)]
+    ranked_facts = sorted(facts.values(), key=lambda e: (-len(e["sources"]), e["value"]))
+    digest["claimed_facts"] = [
+        {"category": e["category"], "value": e["value"], "confidence": e["confidence"],
+         "source_id": sorted(e["sources"])[0] if e["sources"] else "",
+         "sources": sorted(e["sources"])}
+        for e in ranked_facts[:_DIGEST_FACT_CAP]
+    ]
+    return digest
 
 
 def _reduce_once(client, findings: list[dict], model: str) -> dict:
