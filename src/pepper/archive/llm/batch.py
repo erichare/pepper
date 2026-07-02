@@ -41,7 +41,8 @@ def _normalize_map_findings(findings: dict) -> dict:
 
 def _validate_facts(findings: dict, allowed_ids: set[str]) -> dict:
     facts = findings.get("claimed_facts") or []
-    kept = [f for f in facts if f.get("source_id") in allowed_ids]
+    # the model occasionally emits a bare string instead of a fact object; guard it
+    kept = [f for f in facts if isinstance(f, dict) and f.get("source_id") in allowed_ids]
     dropped = len(facts) - len(kept)
     if dropped:
         log.warning("dropped_uncited_facts", dropped=dropped)
@@ -114,11 +115,11 @@ def run_map(client, conn, chunks: list[list[dict]], model: str) -> list[dict]:
     return cached + new_findings
 
 
-# Reduce in a single call while the serialized findings stay well under the model
-# context window; only fall back to hierarchical merging for very large corpora.
-# (Hierarchical merging re-reduces already-synthesized dossiers, which is lossier,
-# so we avoid it when a single pass fits.)
-_REDUCE_INPUT_TOKEN_BUDGET = 150_000
+# Small reduce inputs matter: when asked to synthesize from many findings at once,
+# the model reliably fills the big list fields but tends to skip summary/voice_guide.
+# Reducing in small groups (each call sees few findings) makes it populate every
+# field; a final pass then merges the complete intermediates.
+_REDUCE_GROUP_SIZE = 12
 
 
 def run_reduce(client, findings: list[dict], model: str) -> dict:
@@ -127,16 +128,17 @@ def run_reduce(client, findings: list[dict], model: str) -> dict:
     if not findings:
         raise ValueError("no findings to reduce")
 
-    approx_tokens = len(json.dumps(findings)) // 4
-    if approx_tokens <= _REDUCE_INPUT_TOKEN_BUDGET:
+    if len(findings) <= _REDUCE_GROUP_SIZE:
         return _reduce_once(client, findings, model)
 
-    group_size = 40
     intermediates: list[dict] = []
-    for i in range(0, len(findings), group_size):
-        intermediates.append(_reduce_once(client, findings[i : i + group_size], model))
-        log.info("reduce_group", done=len(intermediates))
-    return _reduce_once(client, intermediates, model)
+    for i in range(0, len(findings), _REDUCE_GROUP_SIZE):
+        intermediates.append(_reduce_once(client, findings[i : i + _REDUCE_GROUP_SIZE], model))
+        log.info("reduce_group", done=len(intermediates), total=len(findings))
+    # merge the complete intermediates (few inputs -> all fields populated)
+    if len(intermediates) <= _REDUCE_GROUP_SIZE:
+        return _reduce_once(client, intermediates, model)
+    return run_reduce(client, intermediates, model)
 
 
 def _reduce_once(client, findings: list[dict], model: str) -> dict:
@@ -158,6 +160,14 @@ def _normalize_dossier(d: dict) -> dict:
     for k in _DOSSIER_LIST_KEYS:
         if not isinstance(d.get(k), list):
             d[k] = []
+    # biographical_facts must be dicts with a sources list (report iterates them)
+    facts = []
+    for f in d["biographical_facts"]:
+        if isinstance(f, dict):
+            if not isinstance(f.get("sources"), list):
+                f["sources"] = []
+            facts.append(f)
+    d["biographical_facts"] = facts
     vg = d.get("voice_guide")
     if not isinstance(vg, dict):
         vg = {}
