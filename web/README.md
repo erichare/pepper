@@ -37,19 +37,20 @@ npm --prefix web run dev
 ```
 
 - **Reply generation** needs `ANTHROPIC_API_KEY`.
-- **The live feed** hits Reddit. From a residential IP the public path usually
-  works; from datacenter IPs (and often locally) Reddit 403s the public `.json`
-  endpoints — set `REDDIT_CLIENT_ID`/`REDDIT_CLIENT_SECRET` (a "script" app at
-  <https://old.reddit.com/prefs/apps>) to use app-only OAuth instead. Without
-  Reddit access the feed degrades gracefully to an in-voice error state.
+- **The live feed** needs `APIFY_TOKEN`. Reddit blocks its public `.json` from
+  datacenter IPs and closed self-serve API access in Nov 2025, so the feed
+  scrapes r/Chipotle through the [Apify Reddit scraper](https://apify.com/fatihtahta/reddit-scraper-search-fast)
+  (residential proxies). Get a token at apify.com → Settings → API & Integrations.
+  Results are KV-cached, so the scraper runs at most once every few minutes.
+  Without a token the feed degrades gracefully to an in-voice error state.
 
 ## Deploy (Vercel)
 
 1. Import the repo; set **Root Directory = `web`**.
 2. Set environment variables (see `.env.example`):
    - `ANTHROPIC_API_KEY` — required (replies).
-   - `REDDIT_CLIENT_ID` / `REDDIT_CLIENT_SECRET` — strongly recommended (the
-     live feed will not reach Reddit from Vercel's IPs without them).
+   - `APIFY_TOKEN` — needed for the live feed (Reddit is unreachable from Vercel
+     IPs directly; the feed scrapes via Apify).
    - `PERSONA_MODEL`, `DAILY_GENERATION_CAP` — optional cost controls.
    - `UPSTASH_REDIS_REST_URL` / `_TOKEN` — optional; enables a persistent reply
      cache + cross-instance rate limiting (add the Upstash integration).
