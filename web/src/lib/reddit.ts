@@ -1,16 +1,25 @@
 /**
  * Server-only reddit listing client for /r/Chipotle.
  *
- * Fetches public listing JSON, normalizes it into `FeedPost`s, and leans on
- * the Next Data Cache (`next.revalidate`) so background revalidation errors
- * keep serving the last good payload. Do not import from client components.
+ * Prefers authenticated app-only OAuth (`oauth.reddit.com`) when
+ * `REDDIT_CLIENT_ID`/`REDDIT_CLIENT_SECRET` are configured — this is the
+ * reliable path from datacenter IPs (Vercel), which Reddit's CDN otherwise
+ * 403s on the public `.json` endpoints. Falls back to the public listing
+ * when no credentials are present (works from residential IPs / local dev).
+ *
+ * Either way it normalizes into `FeedPost`s and leans on the Next Data Cache
+ * (`next.revalidate`) so background revalidation errors keep serving the last
+ * good payload. Do not import from client components.
  */
 
 import type { FeedPost, FeedResponse, FeedSort } from "@/lib/types";
 
-const BASE_URL = "https://www.reddit.com/r/Chipotle";
+const PUBLIC_BASE = "https://www.reddit.com/r/Chipotle";
+const OAUTH_BASE = "https://oauth.reddit.com/r/Chipotle";
+const TOKEN_URL = "https://www.reddit.com/api/v1/access_token";
 const DEFAULT_USER_AGENT = "web:pepper-dossier:v1.0.0 (by /u/newppinpoint)";
 const REVALIDATE_SECONDS = 120;
+const TOKEN_SAFETY_WINDOW_MS = 60_000;
 const LISTING_LIMIT = 25;
 const SELFTEXT_MAX_CHARS = 1200;
 const TARGET_IMAGE_WIDTH = 640;
@@ -179,10 +188,61 @@ function normalizePost(raw: RawPost): FeedPost | null {
   };
 }
 
+// ── auth ────────────────────────────────────────────────────────
+
+interface RedditCreds {
+  id: string;
+  secret: string;
+}
+
+function redditCreds(): RedditCreds | null {
+  const id = process.env.REDDIT_CLIENT_ID;
+  const secret = process.env.REDDIT_CLIENT_SECRET;
+  return id && secret ? { id, secret } : null;
+}
+
+/** In-memory app-only token cache. Per warm serverless instance; refreshed on expiry. */
+let cachedToken: { token: string; expiresAt: number } | null = null;
+
+async function appOnlyToken(creds: RedditCreds, userAgent: string): Promise<string> {
+  const now = Date.now();
+  if (cachedToken !== null && cachedToken.expiresAt > now + TOKEN_SAFETY_WINDOW_MS) {
+    return cachedToken.token;
+  }
+  const basic = Buffer.from(`${creds.id}:${creds.secret}`).toString("base64");
+  const res = await fetch(TOKEN_URL, {
+    method: "POST",
+    headers: {
+      Authorization: `Basic ${basic}`,
+      "Content-Type": "application/x-www-form-urlencoded",
+      "User-Agent": userAgent,
+    },
+    body: "grant_type=client_credentials",
+    cache: "no-store",
+  });
+  if (!res.ok) {
+    throw new Error(`reddit token request failed: ${res.status} ${res.statusText}`);
+  }
+  const json = (await res.json()) as { access_token?: unknown; expires_in?: unknown };
+  const token = asString(json.access_token);
+  if (token === null) {
+    throw new Error("reddit token response missing access_token");
+  }
+  const expiresIn = asNumber(json.expires_in) ?? 3600;
+  cachedToken = { token, expiresAt: now + expiresIn * 1000 };
+  return token;
+}
+
 // ── fetching ────────────────────────────────────────────────────
 
-function buildListingUrl(sort: FeedSort, opts?: FetchListingOptions): string {
-  const parts = [`${BASE_URL}/${sort}.json?limit=${LISTING_LIMIT}&raw_json=1`];
+function buildListingUrl(
+  base: string,
+  sort: FeedSort,
+  opts: FetchListingOptions | undefined,
+  jsonSuffix: boolean,
+): string {
+  const suffix = jsonSuffix ? ".json" : "";
+  const parts = [`${base}/${sort}${suffix}?limit=${LISTING_LIMIT}&raw_json=1`];
   if (sort === "top") parts.push(`&t=${opts?.t ?? "day"}`);
   if (opts?.after) parts.push(`&after=${encodeURIComponent(opts.after)}`);
   return parts.join("");
@@ -199,13 +259,24 @@ export async function fetchListing(
   sort: FeedSort,
   opts?: FetchListingOptions,
 ): Promise<FeedResponse> {
-  const res = await fetch(buildListingUrl(sort, opts), {
-    headers: {
-      "User-Agent": process.env.REDDIT_USER_AGENT ?? DEFAULT_USER_AGENT,
-      Accept: "application/json",
-    },
-    next: { revalidate: REVALIDATE_SECONDS },
-  });
+  const userAgent = process.env.REDDIT_USER_AGENT ?? DEFAULT_USER_AGENT;
+  const creds = redditCreds();
+  const headers: Record<string, string> = {
+    "User-Agent": userAgent,
+    Accept: "application/json",
+  };
+
+  let url: string;
+  if (creds !== null) {
+    // Authenticated path: reliable from datacenter IPs, 100 QPM.
+    headers.Authorization = `Bearer ${await appOnlyToken(creds, userAgent)}`;
+    url = buildListingUrl(OAUTH_BASE, sort, opts, false);
+  } else {
+    // Public fallback: works from residential IPs; may 403 from cloud egress.
+    url = buildListingUrl(PUBLIC_BASE, sort, opts, true);
+  }
+
+  const res = await fetch(url, { headers, next: { revalidate: REVALIDATE_SECONDS } });
   if (!res.ok) {
     throw new Error(`reddit listing request failed: ${res.status} ${res.statusText}`);
   }

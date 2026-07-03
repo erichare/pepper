@@ -128,6 +128,15 @@ function buildCenterNode(): OrbitNode {
   };
 }
 
+/**
+ * Round to 2 decimals. Math.sin/Math.cos are not guaranteed bit-identical
+ * between the server's and the browser's V8, so trig-derived coordinates must
+ * be rounded before they reach the DOM or SSR and hydration disagree.
+ */
+function px(value: number): number {
+  return Math.round(value * 100) / 100;
+}
+
 function buildDustRing(): readonly DustDot[] {
   const rand = seededRandom(42);
   const dots: DustDot[] = [];
@@ -135,9 +144,9 @@ function buildDustRing(): readonly DustDot[] {
     const angle = rand() * Math.PI * 2;
     const radius = DUST_RADIUS + rand() * 28;
     dots.push({
-      x: CX + Math.cos(angle) * radius,
-      y: CY + Math.sin(angle) * radius,
-      r: 0.8 + rand() * 1.4,
+      x: px(CX + Math.cos(angle) * radius),
+      y: px(CY + Math.sin(angle) * radius),
+      r: px(0.8 + rand() * 1.4),
     });
   }
   return dots;
@@ -146,7 +155,7 @@ function buildDustRing(): readonly DustDot[] {
 function snapshotPositions(nodes: readonly OrbitNode[]): PositionMap {
   const out: Record<string, XY> = {};
   for (const node of nodes) {
-    out[node.id] = { x: node.x ?? CX, y: node.y ?? CY };
+    out[node.id] = { x: px(node.x ?? CX), y: px(node.y ?? CY) };
   }
   return out;
 }
@@ -200,20 +209,24 @@ function ConstellationChart() {
   const nodes = useMemo(() => buildOrbitNodes(), []);
   const center = useMemo(() => buildCenterNode(), []);
   const dust = useMemo(() => buildDustRing(), []);
-  const [positions, setPositions] = useState<PositionMap>(() => {
-    // Settle the layout once up front so the first paint (and SSR) is stable.
-    const sim = createSimulation(center, nodes);
-    sim.tick(SETTLE_TICKS);
-    sim.stop();
-    return snapshotPositions(nodes);
-  });
+  // Deterministic golden-angle layout for the first paint — identical on server
+  // and client (d3-force's settle uses Math.random, so it must stay client-only
+  // below, or SSR and hydration would disagree on every node position).
+  const [positions, setPositions] = useState<PositionMap>(() => snapshotPositions(nodes));
   const [hoveredId, setHoveredId] = useState<string | null>(null);
 
   useEffect(() => {
-    if (prefersReduced) return;
-    // Positions are already settled in the initializer; run a live sim that nudges
-    // them via async tick callbacks (setState fires outside the effect body).
     const sim = createSimulation(center, nodes);
+    sim.stop();
+    if (prefersReduced) {
+      sim.tick(SETTLE_TICKS);
+      // One-time client settle; must run here (not in render) to keep SSR stable.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setPositions(snapshotPositions(nodes));
+      return () => {
+        sim.stop();
+      };
+    }
     let tick = 0;
     sim.on("tick", () => {
       tick += 1;
