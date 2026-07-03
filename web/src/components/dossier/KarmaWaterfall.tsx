@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { ReactNode } from "react";
 import { motion, useInView, useReducedMotion } from "motion/react";
 import { scaleBand, scaleLinear } from "d3-scale";
@@ -287,8 +287,19 @@ function WaterfallViz() {
   const reduceMotion = useReducedMotion();
   const reduce = Boolean(reduceMotion);
   const ref = useRef<HTMLDivElement | null>(null);
-  const inView = useInView(ref, { once: true, amount: 0.35 });
-  const show = reduce || inView;
+  // Margin-based trigger fires as the chart scrolls in — more reliable than an
+  // area threshold, which can miss under `content-visibility: auto` and leave
+  // the scaleY:0 bars collapsed (blank chart).
+  const inView = useInView(ref, { once: true, margin: "0px 0px -15% 0px" });
+  // Failsafe: if the observer never fires, reveal anyway so the chart is never
+  // left blank. Long enough that a normal scroll-in still plays the animation.
+  const [failsafe, setFailsafe] = useState(false);
+  useEffect(() => {
+    if (inView) return;
+    const timer = setTimeout(() => setFailsafe(true), 4000);
+    return () => clearTimeout(timer);
+  }, [inView]);
+  const show = reduce || inView || failsafe;
 
   const ariaLabel =
     `Waterfall chart of yearly karma: ` +

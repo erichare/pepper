@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { KeyboardEvent, PointerEvent } from "react";
-import { motion, useReducedMotion } from "motion/react";
+import { motion, useInView, useReducedMotion } from "motion/react";
 import { scaleLinear, scalePoint } from "d3-scale";
 import { area, curveBasis, stack } from "d3-shape";
 import type { SeriesPoint } from "d3-shape";
@@ -384,6 +384,19 @@ function TimelineViz() {
   const [scrub, setScrub] = useState<number | null>(null);
   const lastIndex = MODEL.months.length - 1;
 
+  // The chart is fully clipped (inset 0 100% 0 0) until revealed, so a missed
+  // trigger leaves it blank. Use a margin-based observer plus a failsafe timer
+  // so it can never stay hidden.
+  const vizRef = useRef<HTMLDivElement>(null);
+  const inView = useInView(vizRef, { once: true, margin: "0px 0px -15% 0px" });
+  const [failsafe, setFailsafe] = useState(false);
+  useEffect(() => {
+    if (inView) return;
+    const timer = setTimeout(() => setFailsafe(true), 4000);
+    return () => clearTimeout(timer);
+  }, [inView]);
+  const reveal = Boolean(reduceMotion) || inView || failsafe;
+
   const indexFromPointer = (event: PointerEvent<SVGSVGElement>): number => {
     const rect = event.currentTarget.getBoundingClientRect();
     const sx = ((event.clientX - rect.left) / rect.width) * VB_W;
@@ -416,9 +429,9 @@ function TimelineViz() {
   return (
     <div className="relative">
       <motion.div
+        ref={vizRef}
         initial={reduceMotion ? false : { clipPath: "inset(0 100% 0 0)" }}
-        whileInView={reduceMotion ? undefined : { clipPath: "inset(0 0% 0 0)" }}
-        viewport={{ once: true, amount: 0.25 }}
+        animate={reveal ? { clipPath: "inset(0 0% 0 0)" } : undefined}
         transition={{ duration: 1.1, ease: [0.33, 1, 0.68, 1] }}
       >
         <svg
