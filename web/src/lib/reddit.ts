@@ -259,6 +259,13 @@ export async function fetchListing(
   sort: FeedSort,
   opts?: FetchListingOptions,
 ): Promise<FeedResponse> {
+  // Preferred path: the Apify scraper reaches Reddit via residential proxies,
+  // which is the only reliable option from datacenter IPs post-2025 lockdown.
+  if (process.env.APIFY_TOKEN) {
+    const { fetchListingViaApify } = await import("./apifyReddit");
+    return fetchListingViaApify(sort, { t: opts?.t });
+  }
+
   const userAgent = process.env.REDDIT_USER_AGENT ?? DEFAULT_USER_AGENT;
   const creds = redditCreds();
   const headers: Record<string, string> = {

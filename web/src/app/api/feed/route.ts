@@ -10,6 +10,9 @@
 import { fetchListing } from "@/lib/reddit";
 import type { FeedSort } from "@/lib/types";
 
+// The Apify scraper runs synchronously and can take several seconds; allow headroom.
+export const maxDuration = 60;
+
 const AFTER_PATTERN = /^t3_[a-z0-9]+$/;
 
 function parseSort(value: string | null): FeedSort {
