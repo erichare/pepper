@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion } from "motion/react";
+import { KarmaTicker } from "./KarmaTicker";
 import { PepperGlyph } from "./PepperGlyph";
 
 const TABS = [
@@ -27,6 +28,7 @@ export function SiteNav() {
           </span>
         </Link>
         <div className="flex items-center gap-1 sm:gap-4">
+          <KarmaTicker />
           {TABS.map((tab) => {
             const active =
               tab.href === "/" ? pathname === "/" : pathname.startsWith(tab.href);
