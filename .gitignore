@@ -4,7 +4,8 @@
 !.env.example
 
 # All collected data, media, exports, dossier artifacts stay local
-data/
+# (anchored to repo root so web/src/data/ stays committable)
+/data/
 *.sqlite
 *.sqlite-wal
 *.sqlite-shm

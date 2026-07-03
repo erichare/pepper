@@ -54,6 +54,10 @@ report:
 export fmt="parquet":
     uv run pepper archive export --format {{fmt}}
 
+# emit JSON + media for the Next.js app in web/
+webexport:
+    uv run pepper archive webexport
+
 # pipeline status
 status:
     uv run pepper archive status

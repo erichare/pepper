@@ -304,6 +304,12 @@ def export(settings: Settings, fmt: str = "parquet") -> dict:
     return {"files": [str(f) for f in files]}
 
 
+def webexport(settings: Settings, conn) -> dict:
+    from .webexport import run_webexport
+
+    return run_webexport(conn, settings)
+
+
 # ── status ────────────────────────────────────────────────────────
 def status(settings: Settings, conn) -> dict:
     repo = Repo(conn)
@@ -342,4 +348,5 @@ def run_all(settings: Settings, conn, *, yes: bool = False) -> dict:
         except Exception as e:  # noqa: BLE001
             out["dossier"] = {"error": str(e)}
     out["report"] = report(settings, conn)
+    out["webexport"] = webexport(settings, conn)
     return out

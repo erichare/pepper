@@ -1,0 +1,4031 @@
+{
+  "graph": {
+    "edges": [
+      {
+        "source": "u/self",
+        "target": "u/newppinpoint",
+        "weight": 1003
+      },
+      {
+        "source": "u/self",
+        "target": "u/samirbinballin",
+        "weight": 152
+      },
+      {
+        "source": "u/self",
+        "target": "u/schmokschtak",
+        "weight": 148
+      },
+      {
+        "source": "u/self",
+        "target": "u/TheJohnnyBlaze",
+        "weight": 110
+      },
+      {
+        "source": "u/self",
+        "target": "u/Randomlynumbered",
+        "weight": 78
+      },
+      {
+        "source": "u/self",
+        "target": "u/Eaterup",
+        "weight": 75
+      },
+      {
+        "source": "u/self",
+        "target": "u/TargetHQ",
+        "weight": 74
+      },
+      {
+        "source": "u/self",
+        "target": "u/Accused_Lima_Bean_69",
+        "weight": 71
+      },
+      {
+        "source": "u/self",
+        "target": "u/jkmaley",
+        "weight": 59
+      },
+      {
+        "source": "u/self",
+        "target": "u/dozenkitties",
+        "weight": 46
+      },
+      {
+        "source": "u/self",
+        "target": "u/Similar-Ad6810",
+        "weight": 44
+      },
+      {
+        "source": "u/self",
+        "target": "u/wsj",
+        "weight": 42
+      },
+      {
+        "source": "u/self",
+        "target": "u/CoyoteAdorable3904",
+        "weight": 40
+      },
+      {
+        "source": "u/self",
+        "target": "u/Ill_Flounder_3517",
+        "weight": 37
+      },
+      {
+        "source": "u/self",
+        "target": "u/Charming-Strike-2377",
+        "weight": 36
+      },
+      {
+        "source": "u/self",
+        "target": "u/J_Heerndz",
+        "weight": 35
+      },
+      {
+        "source": "u/self",
+        "target": "u/MezcalNegronis",
+        "weight": 33
+      },
+      {
+        "source": "u/self",
+        "target": "u/MrSquirly",
+        "weight": 33
+      },
+      {
+        "source": "u/self",
+        "target": "u/Proud_Truck",
+        "weight": 33
+      },
+      {
+        "source": "u/self",
+        "target": "u/rikiscool1",
+        "weight": 33
+      },
+      {
+        "source": "u/self",
+        "target": "u/Greedy_Reality_7353",
+        "weight": 32
+      },
+      {
+        "source": "u/self",
+        "target": "u/Thethirdclover",
+        "weight": 32
+      },
+      {
+        "source": "u/self",
+        "target": "u/Vast_Discussion8034",
+        "weight": 31
+      },
+      {
+        "source": "u/self",
+        "target": "u/hoewithpaws",
+        "weight": 31
+      },
+      {
+        "source": "u/self",
+        "target": "u/Only-Ad340",
+        "weight": 30
+      },
+      {
+        "source": "u/self",
+        "target": "u/Straight_Toe_1816",
+        "weight": 29
+      },
+      {
+        "source": "u/self",
+        "target": "u/TheGuyDoug",
+        "weight": 28
+      },
+      {
+        "source": "u/self",
+        "target": "u/astivana",
+        "weight": 28
+      },
+      {
+        "source": "u/self",
+        "target": "u/Beginning-Fig-7207",
+        "weight": 26
+      },
+      {
+        "source": "u/self",
+        "target": "u/BlankVerse",
+        "weight": 26
+      },
+      {
+        "source": "u/self",
+        "target": "u/Euronotus",
+        "weight": 26
+      },
+      {
+        "source": "u/self",
+        "target": "u/LikEatinGlass",
+        "weight": 26
+      },
+      {
+        "source": "u/self",
+        "target": "u/dogeymane",
+        "weight": 26
+      },
+      {
+        "source": "u/self",
+        "target": "u/50_cal",
+        "weight": 25
+      },
+      {
+        "source": "u/self",
+        "target": "u/Jigbaa",
+        "weight": 25
+      },
+      {
+        "source": "u/self",
+        "target": "u/Rnin0913",
+        "weight": 25
+      },
+      {
+        "source": "u/self",
+        "target": "u/Ready-Environment-33",
+        "weight": 24
+      },
+      {
+        "source": "u/self",
+        "target": "u/laterdude",
+        "weight": 24
+      },
+      {
+        "source": "u/self",
+        "target": "u/BenHunt10",
+        "weight": 23
+      },
+      {
+        "source": "u/self",
+        "target": "u/TheAwkwardGamerRNx",
+        "weight": 23
+      },
+      {
+        "source": "u/self",
+        "target": "u/camreIIim",
+        "weight": 23
+      },
+      {
+        "source": "u/self",
+        "target": "u/childishyeezy",
+        "weight": 23
+      },
+      {
+        "source": "u/self",
+        "target": "u/Affectionate-Case932",
+        "weight": 22
+      },
+      {
+        "source": "u/self",
+        "target": "u/Bennlale",
+        "weight": 22
+      },
+      {
+        "source": "u/self",
+        "target": "u/Ill_Cauliflower_12",
+        "weight": 22
+      },
+      {
+        "source": "u/self",
+        "target": "u/Thisgamelowkeysux",
+        "weight": 22
+      },
+      {
+        "source": "u/self",
+        "target": "u/BullyMac",
+        "weight": 21
+      },
+      {
+        "source": "u/self",
+        "target": "u/Simple_Dragonfruit73",
+        "weight": 21
+      },
+      {
+        "source": "u/self",
+        "target": "u/That-Syrup",
+        "weight": 21
+      },
+      {
+        "source": "u/self",
+        "target": "u/ThingCertain3199",
+        "weight": 21
+      },
+      {
+        "source": "u/self",
+        "target": "u/xCavalier97x",
+        "weight": 21
+      },
+      {
+        "source": "u/self",
+        "target": "u/CalligrapherAway1101",
+        "weight": 20
+      },
+      {
+        "source": "u/self",
+        "target": "u/CommissionPlane3879",
+        "weight": 20
+      },
+      {
+        "source": "u/self",
+        "target": "u/SnooPuppers5953",
+        "weight": 20
+      },
+      {
+        "source": "u/self",
+        "target": "u/f0urxio",
+        "weight": 20
+      },
+      {
+        "source": "u/self",
+        "target": "u/probably_baked420",
+        "weight": 20
+      },
+      {
+        "source": "u/self",
+        "target": "u/talivan818",
+        "weight": 20
+      },
+      {
+        "source": "u/self",
+        "target": "u/tanner_lbt",
+        "weight": 20
+      },
+      {
+        "source": "u/self",
+        "target": "u/xrphlx",
+        "weight": 20
+      },
+      {
+        "source": "u/self",
+        "target": "u/Djxgam1ng",
+        "weight": 19
+      },
+      {
+        "source": "u/self",
+        "target": "u/I_fuck_w_tacos",
+        "weight": 19
+      },
+      {
+        "source": "u/self",
+        "target": "u/Novemberx123",
+        "weight": 19
+      },
+      {
+        "source": "u/self",
+        "target": "u/Running_crazy",
+        "weight": 19
+      },
+      {
+        "source": "u/self",
+        "target": "u/VinoJedi06",
+        "weight": 19
+      },
+      {
+        "source": "u/self",
+        "target": "u/bartier999",
+        "weight": 19
+      },
+      {
+        "source": "u/self",
+        "target": "u/lifelessamalgamation",
+        "weight": 19
+      },
+      {
+        "source": "u/self",
+        "target": "u/DogNamedGod",
+        "weight": 18
+      },
+      {
+        "source": "u/self",
+        "target": "u/FearlessPark4588",
+        "weight": 18
+      },
+      {
+        "source": "u/self",
+        "target": "u/ScorpRex",
+        "weight": 18
+      },
+      {
+        "source": "u/self",
+        "target": "u/misssior",
+        "weight": 18
+      },
+      {
+        "source": "u/self",
+        "target": "u/misterphammy",
+        "weight": 18
+      },
+      {
+        "source": "u/self",
+        "target": "u/prudentpatten",
+        "weight": 18
+      },
+      {
+        "source": "u/self",
+        "target": "u/2000-2009",
+        "weight": 17
+      },
+      {
+        "source": "u/self",
+        "target": "u/ChuloProdcutions",
+        "weight": 17
+      },
+      {
+        "source": "u/self",
+        "target": "u/KillDaHo",
+        "weight": 17
+      },
+      {
+        "source": "u/self",
+        "target": "u/Niceotropic",
+        "weight": 17
+      },
+      {
+        "source": "u/self",
+        "target": "u/PrincessBananas85",
+        "weight": 17
+      },
+      {
+        "source": "u/self",
+        "target": "u/Sweaty-Musician1603",
+        "weight": 17
+      },
+      {
+        "source": "u/self",
+        "target": "u/Swonkey333",
+        "weight": 17
+      },
+      {
+        "source": "u/self",
+        "target": "u/Throwaway19372729",
+        "weight": 17
+      },
+      {
+        "source": "u/self",
+        "target": "u/coaxnoisime0r",
+        "weight": 17
+      },
+      {
+        "source": "u/self",
+        "target": "u/Aggravating-Guest-12",
+        "weight": 16
+      },
+      {
+        "source": "u/self",
+        "target": "u/Electrical-Pea-5029",
+        "weight": 16
+      },
+      {
+        "source": "u/self",
+        "target": "u/Lijey_Cat",
+        "weight": 16
+      },
+      {
+        "source": "u/self",
+        "target": "u/MasterBurritoRoller",
+        "weight": 16
+      },
+      {
+        "source": "u/self",
+        "target": "u/MisterBear22",
+        "weight": 16
+      },
+      {
+        "source": "u/self",
+        "target": "u/MrBadMeow",
+        "weight": 16
+      },
+      {
+        "source": "u/self",
+        "target": "u/Murinc",
+        "weight": 16
+      },
+      {
+        "source": "u/self",
+        "target": "u/P0werOverWhelming",
+        "weight": 16
+      },
+      {
+        "source": "u/self",
+        "target": "u/Single_Double_Triple",
+        "weight": 16
+      },
+      {
+        "source": "u/self",
+        "target": "u/loneredditor2247",
+        "weight": 16
+      },
+      {
+        "source": "u/self",
+        "target": "u/lostacoshermanos",
+        "weight": 16
+      },
+      {
+        "source": "u/self",
+        "target": "u/tacobellblake",
+        "weight": 16
+      },
+      {
+        "source": "u/self",
+        "target": "u/woweezowee216",
+        "weight": 16
+      },
+      {
+        "source": "u/self",
+        "target": "u/Brady331",
+        "weight": 15
+      },
+      {
+        "source": "u/self",
+        "target": "u/New_Money_101",
+        "weight": 15
+      },
+      {
+        "source": "u/self",
+        "target": "u/NokiaJigbaa",
+        "weight": 15
+      },
+      {
+        "source": "u/self",
+        "target": "u/VanishedHound",
+        "weight": 15
+      },
+      {
+        "source": "u/self",
+        "target": "u/ladiesman21700000000",
+        "weight": 15
+      },
+      {
+        "source": "u/self",
+        "target": "u/ouma_kinnie",
+        "weight": 15
+      },
+      {
+        "source": "u/self",
+        "target": "u/sylkkkkkkkk",
+        "weight": 15
+      },
+      {
+        "source": "u/self",
+        "target": "u/Any-Abalone8047",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/BraveSoul699",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/Darisixnine",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/DuvalSanitarium",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/Efflictim888",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/Howdysf",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/Jizzler_",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/KingTbaggergouch",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/Livid-Difference-732",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/MysteriousStorm9482",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/Nevitalic",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/NutchMuch",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/Ok_Trust8059",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/Professional-Form108",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/Swiftie69420",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/TrillL-",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/WelcomeOne9543",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/XJ800",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/fastfalcon991",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/jadacripe",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/mjkjg2",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/planttladyy",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/runningforme123",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/sportswin77",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/vaytorr",
+        "weight": 14
+      },
+      {
+        "source": "u/self",
+        "target": "u/Diddler_Diddler",
+        "weight": 13
+      },
+      {
+        "source": "u/self",
+        "target": "u/Expensive_Watch_435",
+        "weight": 13
+      },
+      {
+        "source": "u/self",
+        "target": "u/ExtraMoreNow",
+        "weight": 13
+      },
+      {
+        "source": "u/self",
+        "target": "u/Fabulous_Ad9533",
+        "weight": 13
+      },
+      {
+        "source": "u/self",
+        "target": "u/Glacier_Bleu",
+        "weight": 13
+      },
+      {
+        "source": "u/self",
+        "target": "u/Heavy_Appointment_95",
+        "weight": 13
+      },
+      {
+        "source": "u/self",
+        "target": "u/Mr_phoenix_is_back",
+        "weight": 13
+      },
+      {
+        "source": "u/self",
+        "target": "u/Ok_Letterhead892",
+        "weight": 13
+      },
+      {
+        "source": "u/self",
+        "target": "u/Temporary_Practice_2",
+        "weight": 13
+      },
+      {
+        "source": "u/self",
+        "target": "u/katamarisushirolls",
+        "weight": 13
+      },
+      {
+        "source": "u/self",
+        "target": "u/mbatt2",
+        "weight": 13
+      },
+      {
+        "source": "u/self",
+        "target": "u/nickgiarraputo",
+        "weight": 13
+      },
+      {
+        "source": "u/self",
+        "target": "u/notchahorchata",
+        "weight": 13
+      },
+      {
+        "source": "u/self",
+        "target": "u/ASGroup_",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/A_Zesty_Carrot",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/Alextricity",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/Appropriate_Oilss",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/BigMeatSlapper",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/Bitter_Spite8104",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/ChamberlainHaller",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/Clarence_RMT",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/Corey_Huncho",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/Dimmins2",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/Disastrous-Complex67",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/Emotional_Front_8444",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/Financial_Staff_4118",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/Imnotcleverwiththis",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/MangoOatmilk",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/Mitch_WRX",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/StealthyStalkerPanda",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/True-Dream7732",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/caroline_elly",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/dbuckley221",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/dpittnet",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/hudsonloveschipotle",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/johnny_c_good",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/kayjay010",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/pnwnick_",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/robsensei39",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/schrogotgameyt",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/uniquebrat",
+        "weight": 12
+      },
+      {
+        "source": "u/self",
+        "target": "u/BeenTheBored",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/BlixTowerz",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/Competitive-Level746",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/Dazzling-Honey1280",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/Enough_District_8244",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/Fine-Ad-909",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/FutureHendrixBetter",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/KittysNewGr00ve",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/Meliodasbabymom",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/Mikey_Meatballs",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/Obvious-Cloud8068",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/Pheen-8",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/SSUpliftingCyg",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/Tinnichan",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/Winter-Algae-884",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/Zealousideal_Green26",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/aluminumtoothpaste",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/dirtiehippie710",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/heatherbergeron",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/iso_inane",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/matiaschazo",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/mizunomp5",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/muffinbaby000",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/sugartitscarol",
+        "weight": 11
+      },
+      {
+        "source": "u/self",
+        "target": "u/54689439880",
+        "weight": 10
+      },
+      {
+        "source": "u/self",
+        "target": "u/APieceofToast09",
+        "weight": 10
+      },
+      {
+        "source": "u/self",
+        "target": "u/Alvxandvrg",
+        "weight": 10
+      },
+      {
+        "source": "u/self",
+        "target": "u/Consistent-Pipe-9913",
+        "weight": 10
+      },
+      {
+        "source": "u/self",
+        "target": "u/CustomerPrize",
+        "weight": 10
+      },
+      {
+        "source": "u/self",
+        "target": "u/DoctorReinhardt",
+        "weight": 10
+      },
+      {
+        "source": "u/self",
+        "target": "u/Economy_Courage1581",
+        "weight": 10
+      },
+      {
+        "source": "u/self",
+        "target": "u/Fair_Strawberry_9598",
+        "weight": 10
+      },
+      {
+        "source": "u/self",
+        "target": "u/FritzKubiakEsq",
+        "weight": 10
+      }
+    ],
+    "empty": false,
+    "metrics": {
+      "density": 0.00023,
+      "distinct_interlocutors": 8609,
+      "edges": 8609,
+      "nodes": 8610
+    },
+    "top_interlocutors": [
+      {
+        "author": "newppinpoint",
+        "replies": 1003,
+        "subreddits": [
+          "BuffaloWildWings",
+          "BurgerKing",
+          "ChickFilA",
+          "Chipotle",
+          "Costco",
+          "Culvers",
+          "DelTaco",
+          "Dominos",
+          "LivingMas",
+          "McDonalds"
+        ]
+      },
+      {
+        "author": "samirbinballin",
+        "replies": 152,
+        "subreddits": [
+          "Chipotle",
+          "Whataburger",
+          "beanscoopers",
+          "ricescooperpersons",
+          "tacobell",
+          "wingstop"
+        ]
+      },
+      {
+        "author": "schmokschtak",
+        "replies": 148,
+        "subreddits": [
+          "Chipotle",
+          "beanscoopers"
+        ]
+      },
+      {
+        "author": "TheJohnnyBlaze",
+        "replies": 110,
+        "subreddits": [
+          "fastfood"
+        ]
+      },
+      {
+        "author": "Randomlynumbered",
+        "replies": 78,
+        "subreddits": [
+          "McDonalds",
+          "fastfood",
+          "tacobell"
+        ]
+      },
+      {
+        "author": "Eaterup",
+        "replies": 75,
+        "subreddits": [
+          "fastfood"
+        ]
+      },
+      {
+        "author": "TargetHQ",
+        "replies": 74,
+        "subreddits": [
+          "Birkenstocks",
+          "Chipotle",
+          "beanscoopers"
+        ]
+      },
+      {
+        "author": "Accused_Lima_Bean_69",
+        "replies": 71,
+        "subreddits": [
+          "Chipotle",
+          "KarmaCourt"
+        ]
+      },
+      {
+        "author": "jkmaley",
+        "replies": 59,
+        "subreddits": [
+          "Chipotle"
+        ]
+      },
+      {
+        "author": "dozenkitties",
+        "replies": 46,
+        "subreddits": [
+          "Chipotle"
+        ]
+      },
+      {
+        "author": "Similar-Ad6810",
+        "replies": 44,
+        "subreddits": [
+          "Chipotle"
+        ]
+      },
+      {
+        "author": "wsj",
+        "replies": 42,
+        "subreddits": [
+          "Chipotle"
+        ]
+      },
+      {
+        "author": "CoyoteAdorable3904",
+        "replies": 40,
+        "subreddits": [
+          "Chipotle"
+        ]
+      },
+      {
+        "author": "Ill_Flounder_3517",
+        "replies": 37,
+        "subreddits": [
+          "Chipotle"
+        ]
+      },
+      {
+        "author": "Charming-Strike-2377",
+        "replies": 36,
+        "subreddits": [
+          "TrueCrimeDiscussion"
+        ]
+      },
+      {
+        "author": "J_Heerndz",
+        "replies": 35,
+        "subreddits": [
+          "Chipotle"
+        ]
+      },
+      {
+        "author": "MezcalNegronis",
+        "replies": 33,
+        "subreddits": [
+          "Chipotle"
+        ]
+      },
+      {
+        "author": "MrSquirly",
+        "replies": 33,
+        "subreddits": [
+          "Chipotle"
+        ]
+      },
+      {
+        "author": "Proud_Truck",
+        "replies": 33,
+        "subreddits": [
+          "LivingMas"
+        ]
+      },
+      {
+        "author": "rikiscool1",
+        "replies": 33,
+        "subreddits": [
+          "Chipotle"
+        ]
+      },
+      {
+        "author": "Greedy_Reality_7353",
+        "replies": 32,
+        "subreddits": [
+          "Chipotle"
+        ]
+      },
+      {
+        "author": "Thethirdclover",
+        "replies": 32,
+        "subreddits": [
+          "Chipotle"
+        ]
+      },
+      {
+        "author": "Vast_Discussion8034",
+        "replies": 31,
+        "subreddits": [
+          "Chipotle"
+        ]
+      },
+      {
+        "author": "hoewithpaws",
+        "replies": 31,
+        "subreddits": [
+          "Chipotle"
+        ]
+      },
+      {
+        "author": "Only-Ad340",
+        "replies": 30,
+        "subreddits": [
+          "Chipotle"
+        ]
+      },
+      {
+        "author": "Straight_Toe_1816",
+        "replies": 29,
+        "subreddits": [
+          "Chipotle"
+        ]
+      },
+      {
+        "author": "TheGuyDoug",
+        "replies": 28,
+        "subreddits": [
+          "Chipotle"
+        ]
+      },
+      {
+        "author": "astivana",
+        "replies": 28,
+        "subreddits": [
+          "Chipotle"
+        ]
+      },
+      {
+        "author": "Beginning-Fig-7207",
+        "replies": 26,
+        "subreddits": [
+          "Chipotle"
+        ]
+      },
+      {
+        "author": "BlankVerse",
+        "replies": 26,
+        "subreddits": [
+          "McDonalds",
+          "fastfood"
+        ]
+      }
+    ]
+  },
+  "linguistic": {
+    "distinctive_bigrams": [
+      {
+        "count": 543,
+        "phrase": "sour cream"
+      },
+      {
+        "count": 379,
+        "phrase": "white rice"
+      },
+      {
+        "count": 379,
+        "phrase": "hot salsa"
+      },
+      {
+        "count": 302,
+        "phrase": "taco bell"
+      },
+      {
+        "count": 299,
+        "phrase": "grilled cheese"
+      },
+      {
+        "count": 275,
+        "phrase": "rice chicken"
+      },
+      {
+        "count": 261,
+        "phrase": "chicken cheese"
+      },
+      {
+        "count": 247,
+        "phrase": "fajita veggies"
+      },
+      {
+        "count": 212,
+        "phrase": "fast food"
+      },
+      {
+        "count": 204,
+        "phrase": "cheese burrito"
+      },
+      {
+        "count": 168,
+        "phrase": "meat balls"
+      },
+      {
+        "count": 163,
+        "phrase": "boss pro"
+      },
+      {
+        "count": 163,
+        "phrase": "footlong boss"
+      },
+      {
+        "count": 144,
+        "phrase": "taste buds"
+      },
+      {
+        "count": 143,
+        "phrase": "black rock"
+      },
+      {
+        "count": 119,
+        "phrase": "bacon king"
+      },
+      {
+        "count": 113,
+        "phrase": "absolutely disgusting"
+      },
+      {
+        "count": 113,
+        "phrase": "order ingredients"
+      },
+      {
+        "count": 110,
+        "phrase": "cheese burritos"
+      },
+      {
+        "count": 102,
+        "phrase": "double meat"
+      },
+      {
+        "count": 98,
+        "phrase": "extra cheese"
+      },
+      {
+        "count": 93,
+        "phrase": "every day"
+      },
+      {
+        "count": 90,
+        "phrase": "get free"
+      },
+      {
+        "count": 87,
+        "phrase": "see tomorrow"
+      },
+      {
+        "count": 86,
+        "phrase": "rice beans"
+      }
+    ],
+    "distinctive_trigrams": [
+      {
+        "count": 225,
+        "phrase": "rice chicken cheese"
+      },
+      {
+        "count": 214,
+        "phrase": "white rice chicken"
+      },
+      {
+        "count": 175,
+        "phrase": "grilled cheese burrito"
+      },
+      {
+        "count": 147,
+        "phrase": "footlong boss pro"
+      },
+      {
+        "count": 99,
+        "phrase": "grilled cheese burritos"
+      },
+      {
+        "count": 83,
+        "phrase": "sour cream cheese"
+      },
+      {
+        "count": 77,
+        "phrase": "cheese sour cream"
+      },
+      {
+        "count": 62,
+        "phrase": "order white rice"
+      },
+      {
+        "count": 56,
+        "phrase": "fresh never frozen"
+      },
+      {
+        "count": 54,
+        "phrase": "agent agent agent"
+      },
+      {
+        "count": 47,
+        "phrase": "salsa sour cream"
+      },
+      {
+        "count": 47,
+        "phrase": "climbing corporate ladder"
+      },
+      {
+        "count": 39,
+        "phrase": "looks absolutely disgusting"
+      },
+      {
+        "count": 39,
+        "phrase": "fajita veggies mild"
+      },
+      {
+        "count": 38,
+        "phrase": "hot salsa sour"
+      },
+      {
+        "count": 37,
+        "phrase": "beans fajita veggies"
+      },
+      {
+        "count": 35,
+        "phrase": "salsa hot salsa"
+      },
+      {
+        "count": 34,
+        "phrase": "extra white rice"
+      },
+      {
+        "count": 33,
+        "phrase": "fries diet coke"
+      },
+      {
+        "count": 29,
+        "phrase": "cheesy double beef"
+      }
+    ],
+    "empty": false,
+    "nltk": true,
+    "readability": {
+      "flesch_kincaid_grade": 7.4,
+      "flesch_reading_ease": 71.5,
+      "smog_index": 10.0
+    },
+    "tone": {
+      "avg_words_per_item": 19.5,
+      "exclamation_ratio": 0.059,
+      "question_ratio": 0.18
+    },
+    "top_words": [
+      {
+        "count": 2285,
+        "word": "get"
+      },
+      {
+        "count": 1872,
+        "word": "order"
+      },
+      {
+        "count": 1680,
+        "word": "cheese"
+      },
+      {
+        "count": 1424,
+        "word": "one"
+      },
+      {
+        "count": 1348,
+        "word": "lol"
+      },
+      {
+        "count": 1257,
+        "word": "chipotle"
+      },
+      {
+        "count": 1206,
+        "word": "bowl"
+      },
+      {
+        "count": 1158,
+        "word": "chicken"
+      },
+      {
+        "count": 1092,
+        "word": "rice"
+      },
+      {
+        "count": 988,
+        "word": "extra"
+      },
+      {
+        "count": 974,
+        "word": "good"
+      },
+      {
+        "count": 960,
+        "word": "people"
+      },
+      {
+        "count": 942,
+        "word": "burrito"
+      },
+      {
+        "count": 901,
+        "word": "pepper"
+      },
+      {
+        "count": 863,
+        "word": "ingredients"
+      },
+      {
+        "count": 832,
+        "word": "salsa"
+      },
+      {
+        "count": 781,
+        "word": "add"
+      },
+      {
+        "count": 773,
+        "word": "got"
+      },
+      {
+        "count": 761,
+        "word": "think"
+      },
+      {
+        "count": 758,
+        "word": "time"
+      },
+      {
+        "count": 746,
+        "word": "say"
+      },
+      {
+        "count": 745,
+        "word": "want"
+      },
+      {
+        "count": 730,
+        "word": "hot"
+      },
+      {
+        "count": 682,
+        "word": "even"
+      },
+      {
+        "count": 677,
+        "word": "make"
+      },
+      {
+        "count": 667,
+        "word": "meat"
+      },
+      {
+        "count": 667,
+        "word": "free"
+      },
+      {
+        "count": 666,
+        "word": "see"
+      },
+      {
+        "count": 649,
+        "word": "store"
+      },
+      {
+        "count": 628,
+        "word": "food"
+      },
+      {
+        "count": 608,
+        "word": "way"
+      },
+      {
+        "count": 597,
+        "word": "sauce"
+      },
+      {
+        "count": 596,
+        "word": "well"
+      },
+      {
+        "count": 591,
+        "word": "two"
+      },
+      {
+        "count": 576,
+        "word": "know"
+      },
+      {
+        "count": 565,
+        "word": "reported"
+      },
+      {
+        "count": 559,
+        "word": "someone"
+      },
+      {
+        "count": 555,
+        "word": "side"
+      },
+      {
+        "count": 554,
+        "word": "looks"
+      },
+      {
+        "count": 553,
+        "word": "cream"
+      }
+    ],
+    "vocabulary": {
+      "richness": 0.0267,
+      "total_words": 399592,
+      "unique_words": 10688
+    }
+  },
+  "stats": {
+    "activity_gaps": [
+      {
+        "days": 180.1,
+        "from": "2021-06-23T09:54:50+00:00",
+        "to": "2021-12-20T13:13:26+00:00"
+      },
+      {
+        "days": 76.0,
+        "from": "2021-04-08T04:37:27+00:00",
+        "to": "2021-06-23T05:24:32+00:00"
+      },
+      {
+        "days": 49.1,
+        "from": "2020-10-06T14:36:50+00:00",
+        "to": "2020-11-24T16:52:24+00:00"
+      },
+      {
+        "days": 43.0,
+        "from": "2026-01-09T00:14:14+00:00",
+        "to": "2026-02-21T00:23:04+00:00"
+      },
+      {
+        "days": 42.1,
+        "from": "2020-07-27T20:56:03+00:00",
+        "to": "2020-09-07T22:18:55+00:00"
+      },
+      {
+        "days": 25.2,
+        "from": "2021-12-29T04:56:55+00:00",
+        "to": "2022-01-23T09:39:43+00:00"
+      },
+      {
+        "days": 24.0,
+        "from": "2020-06-23T19:53:38+00:00",
+        "to": "2020-07-17T20:13:59+00:00"
+      },
+      {
+        "days": 19.6,
+        "from": "2020-09-07T22:44:24+00:00",
+        "to": "2020-09-27T12:50:54+00:00"
+      },
+      {
+        "days": 15.5,
+        "from": "2021-03-21T09:55:27+00:00",
+        "to": "2021-04-05T20:57:50+00:00"
+      },
+      {
+        "days": 14.9,
+        "from": "2021-02-08T13:34:08+00:00",
+        "to": "2021-02-23T10:02:58+00:00"
+      }
+    ],
+    "empty": false,
+    "heatmap": [
+      {
+        "count": 51,
+        "hour": 0,
+        "weekday": 1
+      },
+      {
+        "count": 58,
+        "hour": 1,
+        "weekday": 1
+      },
+      {
+        "count": 114,
+        "hour": 2,
+        "weekday": 1
+      },
+      {
+        "count": 153,
+        "hour": 3,
+        "weekday": 1
+      },
+      {
+        "count": 249,
+        "hour": 4,
+        "weekday": 1
+      },
+      {
+        "count": 166,
+        "hour": 5,
+        "weekday": 1
+      },
+      {
+        "count": 78,
+        "hour": 6,
+        "weekday": 1
+      },
+      {
+        "count": 63,
+        "hour": 7,
+        "weekday": 1
+      },
+      {
+        "count": 170,
+        "hour": 8,
+        "weekday": 1
+      },
+      {
+        "count": 256,
+        "hour": 9,
+        "weekday": 1
+      },
+      {
+        "count": 353,
+        "hour": 10,
+        "weekday": 1
+      },
+      {
+        "count": 236,
+        "hour": 11,
+        "weekday": 1
+      },
+      {
+        "count": 190,
+        "hour": 12,
+        "weekday": 1
+      },
+      {
+        "count": 172,
+        "hour": 13,
+        "weekday": 1
+      },
+      {
+        "count": 157,
+        "hour": 14,
+        "weekday": 1
+      },
+      {
+        "count": 61,
+        "hour": 15,
+        "weekday": 1
+      },
+      {
+        "count": 47,
+        "hour": 16,
+        "weekday": 1
+      },
+      {
+        "count": 72,
+        "hour": 17,
+        "weekday": 1
+      },
+      {
+        "count": 68,
+        "hour": 18,
+        "weekday": 1
+      },
+      {
+        "count": 88,
+        "hour": 19,
+        "weekday": 1
+      },
+      {
+        "count": 94,
+        "hour": 20,
+        "weekday": 1
+      },
+      {
+        "count": 103,
+        "hour": 21,
+        "weekday": 1
+      },
+      {
+        "count": 155,
+        "hour": 22,
+        "weekday": 1
+      },
+      {
+        "count": 149,
+        "hour": 23,
+        "weekday": 1
+      },
+      {
+        "count": 39,
+        "hour": 0,
+        "weekday": 2
+      },
+      {
+        "count": 35,
+        "hour": 1,
+        "weekday": 2
+      },
+      {
+        "count": 93,
+        "hour": 2,
+        "weekday": 2
+      },
+      {
+        "count": 165,
+        "hour": 3,
+        "weekday": 2
+      },
+      {
+        "count": 295,
+        "hour": 4,
+        "weekday": 2
+      },
+      {
+        "count": 191,
+        "hour": 5,
+        "weekday": 2
+      },
+      {
+        "count": 35,
+        "hour": 6,
+        "weekday": 2
+      },
+      {
+        "count": 69,
+        "hour": 7,
+        "weekday": 2
+      },
+      {
+        "count": 175,
+        "hour": 8,
+        "weekday": 2
+      },
+      {
+        "count": 270,
+        "hour": 9,
+        "weekday": 2
+      },
+      {
+        "count": 310,
+        "hour": 10,
+        "weekday": 2
+      },
+      {
+        "count": 254,
+        "hour": 11,
+        "weekday": 2
+      },
+      {
+        "count": 272,
+        "hour": 12,
+        "weekday": 2
+      },
+      {
+        "count": 190,
+        "hour": 13,
+        "weekday": 2
+      },
+      {
+        "count": 82,
+        "hour": 14,
+        "weekday": 2
+      },
+      {
+        "count": 68,
+        "hour": 15,
+        "weekday": 2
+      },
+      {
+        "count": 61,
+        "hour": 16,
+        "weekday": 2
+      },
+      {
+        "count": 63,
+        "hour": 17,
+        "weekday": 2
+      },
+      {
+        "count": 87,
+        "hour": 18,
+        "weekday": 2
+      },
+      {
+        "count": 84,
+        "hour": 19,
+        "weekday": 2
+      },
+      {
+        "count": 101,
+        "hour": 20,
+        "weekday": 2
+      },
+      {
+        "count": 112,
+        "hour": 21,
+        "weekday": 2
+      },
+      {
+        "count": 179,
+        "hour": 22,
+        "weekday": 2
+      },
+      {
+        "count": 127,
+        "hour": 23,
+        "weekday": 2
+      },
+      {
+        "count": 47,
+        "hour": 0,
+        "weekday": 3
+      },
+      {
+        "count": 59,
+        "hour": 1,
+        "weekday": 3
+      },
+      {
+        "count": 37,
+        "hour": 2,
+        "weekday": 3
+      },
+      {
+        "count": 108,
+        "hour": 3,
+        "weekday": 3
+      },
+      {
+        "count": 307,
+        "hour": 4,
+        "weekday": 3
+      },
+      {
+        "count": 208,
+        "hour": 5,
+        "weekday": 3
+      },
+      {
+        "count": 70,
+        "hour": 6,
+        "weekday": 3
+      },
+      {
+        "count": 56,
+        "hour": 7,
+        "weekday": 3
+      },
+      {
+        "count": 192,
+        "hour": 8,
+        "weekday": 3
+      },
+      {
+        "count": 199,
+        "hour": 9,
+        "weekday": 3
+      },
+      {
+        "count": 220,
+        "hour": 10,
+        "weekday": 3
+      },
+      {
+        "count": 238,
+        "hour": 11,
+        "weekday": 3
+      },
+      {
+        "count": 227,
+        "hour": 12,
+        "weekday": 3
+      },
+      {
+        "count": 130,
+        "hour": 13,
+        "weekday": 3
+      },
+      {
+        "count": 60,
+        "hour": 14,
+        "weekday": 3
+      },
+      {
+        "count": 57,
+        "hour": 15,
+        "weekday": 3
+      },
+      {
+        "count": 100,
+        "hour": 16,
+        "weekday": 3
+      },
+      {
+        "count": 82,
+        "hour": 17,
+        "weekday": 3
+      },
+      {
+        "count": 83,
+        "hour": 18,
+        "weekday": 3
+      },
+      {
+        "count": 99,
+        "hour": 19,
+        "weekday": 3
+      },
+      {
+        "count": 86,
+        "hour": 20,
+        "weekday": 3
+      },
+      {
+        "count": 245,
+        "hour": 21,
+        "weekday": 3
+      },
+      {
+        "count": 107,
+        "hour": 22,
+        "weekday": 3
+      },
+      {
+        "count": 126,
+        "hour": 23,
+        "weekday": 3
+      },
+      {
+        "count": 71,
+        "hour": 0,
+        "weekday": 4
+      },
+      {
+        "count": 42,
+        "hour": 1,
+        "weekday": 4
+      },
+      {
+        "count": 59,
+        "hour": 2,
+        "weekday": 4
+      },
+      {
+        "count": 95,
+        "hour": 3,
+        "weekday": 4
+      },
+      {
+        "count": 320,
+        "hour": 4,
+        "weekday": 4
+      },
+      {
+        "count": 237,
+        "hour": 5,
+        "weekday": 4
+      },
+      {
+        "count": 41,
+        "hour": 6,
+        "weekday": 4
+      },
+      {
+        "count": 28,
+        "hour": 7,
+        "weekday": 4
+      },
+      {
+        "count": 221,
+        "hour": 8,
+        "weekday": 4
+      },
+      {
+        "count": 200,
+        "hour": 9,
+        "weekday": 4
+      },
+      {
+        "count": 301,
+        "hour": 10,
+        "weekday": 4
+      },
+      {
+        "count": 256,
+        "hour": 11,
+        "weekday": 4
+      },
+      {
+        "count": 190,
+        "hour": 12,
+        "weekday": 4
+      },
+      {
+        "count": 108,
+        "hour": 13,
+        "weekday": 4
+      },
+      {
+        "count": 92,
+        "hour": 14,
+        "weekday": 4
+      },
+      {
+        "count": 84,
+        "hour": 15,
+        "weekday": 4
+      },
+      {
+        "count": 60,
+        "hour": 16,
+        "weekday": 4
+      },
+      {
+        "count": 50,
+        "hour": 17,
+        "weekday": 4
+      },
+      {
+        "count": 46,
+        "hour": 18,
+        "weekday": 4
+      },
+      {
+        "count": 57,
+        "hour": 19,
+        "weekday": 4
+      },
+      {
+        "count": 108,
+        "hour": 20,
+        "weekday": 4
+      },
+      {
+        "count": 104,
+        "hour": 21,
+        "weekday": 4
+      },
+      {
+        "count": 134,
+        "hour": 22,
+        "weekday": 4
+      },
+      {
+        "count": 123,
+        "hour": 23,
+        "weekday": 4
+      },
+      {
+        "count": 36,
+        "hour": 0,
+        "weekday": 5
+      },
+      {
+        "count": 31,
+        "hour": 1,
+        "weekday": 5
+      },
+      {
+        "count": 64,
+        "hour": 2,
+        "weekday": 5
+      },
+      {
+        "count": 75,
+        "hour": 3,
+        "weekday": 5
+      },
+      {
+        "count": 279,
+        "hour": 4,
+        "weekday": 5
+      },
+      {
+        "count": 243,
+        "hour": 5,
+        "weekday": 5
+      },
+      {
+        "count": 72,
+        "hour": 6,
+        "weekday": 5
+      },
+      {
+        "count": 58,
+        "hour": 7,
+        "weekday": 5
+      },
+      {
+        "count": 185,
+        "hour": 8,
+        "weekday": 5
+      },
+      {
+        "count": 207,
+        "hour": 9,
+        "weekday": 5
+      },
+      {
+        "count": 308,
+        "hour": 10,
+        "weekday": 5
+      },
+      {
+        "count": 243,
+        "hour": 11,
+        "weekday": 5
+      },
+      {
+        "count": 202,
+        "hour": 12,
+        "weekday": 5
+      },
+      {
+        "count": 169,
+        "hour": 13,
+        "weekday": 5
+      },
+      {
+        "count": 105,
+        "hour": 14,
+        "weekday": 5
+      },
+      {
+        "count": 67,
+        "hour": 15,
+        "weekday": 5
+      },
+      {
+        "count": 63,
+        "hour": 16,
+        "weekday": 5
+      },
+      {
+        "count": 72,
+        "hour": 17,
+        "weekday": 5
+      },
+      {
+        "count": 43,
+        "hour": 18,
+        "weekday": 5
+      },
+      {
+        "count": 99,
+        "hour": 19,
+        "weekday": 5
+      },
+      {
+        "count": 134,
+        "hour": 20,
+        "weekday": 5
+      },
+      {
+        "count": 86,
+        "hour": 21,
+        "weekday": 5
+      },
+      {
+        "count": 135,
+        "hour": 22,
+        "weekday": 5
+      },
+      {
+        "count": 114,
+        "hour": 23,
+        "weekday": 5
+      },
+      {
+        "count": 40,
+        "hour": 0,
+        "weekday": 6
+      },
+      {
+        "count": 28,
+        "hour": 1,
+        "weekday": 6
+      },
+      {
+        "count": 47,
+        "hour": 2,
+        "weekday": 6
+      },
+      {
+        "count": 94,
+        "hour": 3,
+        "weekday": 6
+      },
+      {
+        "count": 206,
+        "hour": 4,
+        "weekday": 6
+      },
+      {
+        "count": 160,
+        "hour": 5,
+        "weekday": 6
+      },
+      {
+        "count": 52,
+        "hour": 6,
+        "weekday": 6
+      },
+      {
+        "count": 99,
+        "hour": 7,
+        "weekday": 6
+      },
+      {
+        "count": 67,
+        "hour": 8,
+        "weekday": 6
+      },
+      {
+        "count": 170,
+        "hour": 9,
+        "weekday": 6
+      },
+      {
+        "count": 223,
+        "hour": 10,
+        "weekday": 6
+      },
+      {
+        "count": 216,
+        "hour": 11,
+        "weekday": 6
+      },
+      {
+        "count": 199,
+        "hour": 12,
+        "weekday": 6
+      },
+      {
+        "count": 199,
+        "hour": 13,
+        "weekday": 6
+      },
+      {
+        "count": 133,
+        "hour": 14,
+        "weekday": 6
+      },
+      {
+        "count": 74,
+        "hour": 15,
+        "weekday": 6
+      },
+      {
+        "count": 26,
+        "hour": 16,
+        "weekday": 6
+      },
+      {
+        "count": 14,
+        "hour": 17,
+        "weekday": 6
+      },
+      {
+        "count": 10,
+        "hour": 18,
+        "weekday": 6
+      },
+      {
+        "count": 18,
+        "hour": 19,
+        "weekday": 6
+      },
+      {
+        "count": 29,
+        "hour": 20,
+        "weekday": 6
+      },
+      {
+        "count": 70,
+        "hour": 21,
+        "weekday": 6
+      },
+      {
+        "count": 38,
+        "hour": 22,
+        "weekday": 6
+      },
+      {
+        "count": 41,
+        "hour": 23,
+        "weekday": 6
+      },
+      {
+        "count": 20,
+        "hour": 0,
+        "weekday": 7
+      },
+      {
+        "count": 49,
+        "hour": 1,
+        "weekday": 7
+      },
+      {
+        "count": 57,
+        "hour": 2,
+        "weekday": 7
+      },
+      {
+        "count": 101,
+        "hour": 3,
+        "weekday": 7
+      },
+      {
+        "count": 180,
+        "hour": 4,
+        "weekday": 7
+      },
+      {
+        "count": 181,
+        "hour": 5,
+        "weekday": 7
+      },
+      {
+        "count": 89,
+        "hour": 6,
+        "weekday": 7
+      },
+      {
+        "count": 36,
+        "hour": 7,
+        "weekday": 7
+      },
+      {
+        "count": 153,
+        "hour": 8,
+        "weekday": 7
+      },
+      {
+        "count": 239,
+        "hour": 9,
+        "weekday": 7
+      },
+      {
+        "count": 299,
+        "hour": 10,
+        "weekday": 7
+      },
+      {
+        "count": 200,
+        "hour": 11,
+        "weekday": 7
+      },
+      {
+        "count": 159,
+        "hour": 12,
+        "weekday": 7
+      },
+      {
+        "count": 141,
+        "hour": 13,
+        "weekday": 7
+      },
+      {
+        "count": 122,
+        "hour": 14,
+        "weekday": 7
+      },
+      {
+        "count": 53,
+        "hour": 15,
+        "weekday": 7
+      },
+      {
+        "count": 28,
+        "hour": 16,
+        "weekday": 7
+      },
+      {
+        "count": 7,
+        "hour": 17,
+        "weekday": 7
+      },
+      {
+        "count": 11,
+        "hour": 18,
+        "weekday": 7
+      },
+      {
+        "count": 30,
+        "hour": 19,
+        "weekday": 7
+      },
+      {
+        "count": 36,
+        "hour": 20,
+        "weekday": 7
+      },
+      {
+        "count": 40,
+        "hour": 21,
+        "weekday": 7
+      },
+      {
+        "count": 55,
+        "hour": 22,
+        "weekday": 7
+      },
+      {
+        "count": 55,
+        "hour": 23,
+        "weekday": 7
+      }
+    ],
+    "karma": {
+      "avg_score": -0.55,
+      "by_year": [
+        {
+          "count": 30,
+          "score": 4,
+          "year": 2020
+        },
+        {
+          "count": 35,
+          "score": -56,
+          "year": 2021
+        },
+        {
+          "count": 1189,
+          "score": 1224,
+          "year": 2022
+        },
+        {
+          "count": 5857,
+          "score": -6025,
+          "year": 2023
+        },
+        {
+          "count": 5710,
+          "score": -1904,
+          "year": 2024
+        },
+        {
+          "count": 7204,
+          "score": -4468,
+          "year": 2025
+        },
+        {
+          "count": 489,
+          "score": -107,
+          "year": 2026
+        }
+      ],
+      "max_score": 528,
+      "median_score": 1.0,
+      "min_score": -714,
+      "total_score": -11332
+    },
+    "length": {
+      "avg_chars": 102.9,
+      "avg_words": 19.0,
+      "max_words": 762,
+      "median_words": 12.0
+    },
+    "status_breakdown": [
+      {
+        "count": 19032,
+        "status": "active",
+        "type": "comment"
+      },
+      {
+        "count": 131,
+        "status": "removed_by_mod",
+        "type": "comment"
+      },
+      {
+        "count": 1144,
+        "status": "unknown",
+        "type": "comment"
+      },
+      {
+        "count": 184,
+        "status": "active",
+        "type": "submission"
+      },
+      {
+        "count": 23,
+        "status": "removed_by_mod",
+        "type": "submission"
+      }
+    ],
+    "subreddits": [
+      {
+        "avg_score": -1.8,
+        "count": 11631,
+        "subreddit": "Chipotle",
+        "total_score": -20099
+      },
+      {
+        "avg_score": 1.74,
+        "count": 2180,
+        "subreddit": "tacobell",
+        "total_score": 3706
+      },
+      {
+        "avg_score": -0.02,
+        "count": 1151,
+        "subreddit": "jerseymikes",
+        "total_score": -27
+      },
+      {
+        "avg_score": 1.52,
+        "count": 1110,
+        "subreddit": "subway",
+        "total_score": 1679
+      },
+      {
+        "avg_score": 1.0,
+        "count": 999,
+        "subreddit": "wendys",
+        "total_score": 972
+      },
+      {
+        "avg_score": 1.39,
+        "count": 597,
+        "subreddit": "BurgerKing",
+        "total_score": 786
+      },
+      {
+        "avg_score": -0.98,
+        "count": 364,
+        "subreddit": "fastfood",
+        "total_score": -86
+      },
+      {
+        "avg_score": 2.95,
+        "count": 346,
+        "subreddit": "LivingMas",
+        "total_score": 1014
+      },
+      {
+        "avg_score": 1.32,
+        "count": 258,
+        "subreddit": "wingstop",
+        "total_score": 334
+      },
+      {
+        "avg_score": -1.28,
+        "count": 255,
+        "subreddit": "innout",
+        "total_score": -311
+      },
+      {
+        "avg_score": 0.29,
+        "count": 239,
+        "subreddit": "ChickFilA",
+        "total_score": 45
+      },
+      {
+        "avg_score": 1.2,
+        "count": 179,
+        "subreddit": "Whataburger",
+        "total_score": 212
+      },
+      {
+        "avg_score": 1.26,
+        "count": 138,
+        "subreddit": "fiveguys",
+        "total_score": 173
+      },
+      {
+        "avg_score": 1.05,
+        "count": 86,
+        "subreddit": "beanscoopers",
+        "total_score": 90
+      },
+      {
+        "avg_score": 0.98,
+        "count": 79,
+        "subreddit": "McDonalds",
+        "total_score": 42
+      },
+      {
+        "avg_score": 0.95,
+        "count": 78,
+        "subreddit": "DelTaco",
+        "total_score": 73
+      },
+      {
+        "avg_score": 1.55,
+        "count": 62,
+        "subreddit": "Panera",
+        "total_score": 73
+      },
+      {
+        "avg_score": 0.86,
+        "count": 49,
+        "subreddit": "baseball",
+        "total_score": 19
+      },
+      {
+        "avg_score": 1.75,
+        "count": 48,
+        "subreddit": "Popeyes",
+        "total_score": 84
+      },
+      {
+        "avg_score": 1.36,
+        "count": 45,
+        "subreddit": "Culvers",
+        "total_score": 61
+      },
+      {
+        "avg_score": -2.09,
+        "count": 44,
+        "subreddit": "TheSilphRoad",
+        "total_score": -73
+      },
+      {
+        "avg_score": -0.14,
+        "count": 43,
+        "subreddit": "Dominos",
+        "total_score": -6
+      },
+      {
+        "avg_score": 1.48,
+        "count": 42,
+        "subreddit": "jackinthebox",
+        "total_score": 59
+      },
+      {
+        "avg_score": -0.18,
+        "count": 41,
+        "subreddit": "TrueCrimeDiscussion",
+        "total_score": -3
+      },
+      {
+        "avg_score": -0.41,
+        "count": 37,
+        "subreddit": "Costco",
+        "total_score": -9
+      },
+      {
+        "avg_score": 2.06,
+        "count": 33,
+        "subreddit": "Starliner",
+        "total_score": 68
+      },
+      {
+        "avg_score": 0.21,
+        "count": 29,
+        "subreddit": "BuffaloWildWings",
+        "total_score": 6
+      },
+      {
+        "avg_score": -8.42,
+        "count": 26,
+        "subreddit": "TropicalWeather",
+        "total_score": -219
+      },
+      {
+        "avg_score": -0.81,
+        "count": 21,
+        "subreddit": "titanic",
+        "total_score": -17
+      },
+      {
+        "avg_score": -15.35,
+        "count": 19,
+        "subreddit": "boeing",
+        "total_score": -261
+      },
+      {
+        "avg_score": 0.78,
+        "count": 17,
+        "subreddit": "burgers",
+        "total_score": 7
+      },
+      {
+        "avg_score": -0.58,
+        "count": 16,
+        "subreddit": "news",
+        "total_score": -7
+      },
+      {
+        "avg_score": 2.67,
+        "count": 16,
+        "subreddit": "TheSilphArena",
+        "total_score": 40
+      },
+      {
+        "avg_score": 0.64,
+        "count": 14,
+        "subreddit": "Seattle",
+        "total_score": 9
+      },
+      {
+        "avg_score": 1.42,
+        "count": 13,
+        "subreddit": "pizzahut",
+        "total_score": 17
+      },
+      {
+        "avg_score": 0.75,
+        "count": 12,
+        "subreddit": "olivegarden",
+        "total_score": 9
+      },
+      {
+        "avg_score": null,
+        "count": 11,
+        "subreddit": "Dodgers",
+        "total_score": 0
+      },
+      {
+        "avg_score": 0.88,
+        "count": 10,
+        "subreddit": "RaisingCanes",
+        "total_score": 7
+      },
+      {
+        "avg_score": 2.2,
+        "count": 10,
+        "subreddit": "kfc",
+        "total_score": 22
+      },
+      {
+        "avg_score": 0.57,
+        "count": 10,
+        "subreddit": "Pizza",
+        "total_score": 4
+      },
+      {
+        "avg_score": -0.22,
+        "count": 9,
+        "subreddit": "jimmyjohns",
+        "total_score": -2
+      },
+      {
+        "avg_score": 0.0,
+        "count": 8,
+        "subreddit": "space",
+        "total_score": 0
+      },
+      {
+        "avg_score": 0.57,
+        "count": 7,
+        "subreddit": "pasta",
+        "total_score": 4
+      },
+      {
+        "avg_score": 1.67,
+        "count": 6,
+        "subreddit": "RMS_Titanic",
+        "total_score": 10
+      },
+      {
+        "avg_score": 1.2,
+        "count": 6,
+        "subreddit": "pokemongo",
+        "total_score": 6
+      },
+      {
+        "avg_score": null,
+        "count": 6,
+        "subreddit": "columbia",
+        "total_score": 0
+      },
+      {
+        "avg_score": null,
+        "count": 6,
+        "subreddit": "NewYorkMets",
+        "total_score": 0
+      },
+      {
+        "avg_score": 0.83,
+        "count": 6,
+        "subreddit": "Chilis",
+        "total_score": 5
+      },
+      {
+        "avg_score": 1.5,
+        "count": 6,
+        "subreddit": "shakeshack",
+        "total_score": 9
+      },
+      {
+        "avg_score": 10.0,
+        "count": 5,
+        "subreddit": "COVID19positive",
+        "total_score": 50
+      }
+    ],
+    "timeline": [
+      {
+        "comments": 9,
+        "count": 11,
+        "submissions": 2,
+        "year_month": "2020-06"
+      },
+      {
+        "comments": 5,
+        "count": 6,
+        "submissions": 1,
+        "year_month": "2020-07"
+      },
+      {
+        "comments": 2,
+        "count": 4,
+        "submissions": 2,
+        "year_month": "2020-09"
+      },
+      {
+        "comments": 0,
+        "count": 1,
+        "submissions": 1,
+        "year_month": "2020-10"
+      },
+      {
+        "comments": 4,
+        "count": 4,
+        "submissions": 0,
+        "year_month": "2020-11"
+      },
+      {
+        "comments": 4,
+        "count": 4,
+        "submissions": 0,
+        "year_month": "2020-12"
+      },
+      {
+        "comments": 12,
+        "count": 13,
+        "submissions": 1,
+        "year_month": "2021-01"
+      },
+      {
+        "comments": 6,
+        "count": 6,
+        "submissions": 0,
+        "year_month": "2021-02"
+      },
+      {
+        "comments": 7,
+        "count": 7,
+        "submissions": 0,
+        "year_month": "2021-03"
+      },
+      {
+        "comments": 4,
+        "count": 4,
+        "submissions": 0,
+        "year_month": "2021-04"
+      },
+      {
+        "comments": 2,
+        "count": 2,
+        "submissions": 0,
+        "year_month": "2021-06"
+      },
+      {
+        "comments": 3,
+        "count": 3,
+        "submissions": 0,
+        "year_month": "2021-12"
+      },
+      {
+        "comments": 7,
+        "count": 7,
+        "submissions": 0,
+        "year_month": "2022-01"
+      },
+      {
+        "comments": 34,
+        "count": 35,
+        "submissions": 1,
+        "year_month": "2022-02"
+      },
+      {
+        "comments": 17,
+        "count": 17,
+        "submissions": 0,
+        "year_month": "2022-03"
+      },
+      {
+        "comments": 10,
+        "count": 10,
+        "submissions": 0,
+        "year_month": "2022-04"
+      },
+      {
+        "comments": 25,
+        "count": 26,
+        "submissions": 1,
+        "year_month": "2022-05"
+      },
+      {
+        "comments": 5,
+        "count": 7,
+        "submissions": 2,
+        "year_month": "2022-06"
+      },
+      {
+        "comments": 39,
+        "count": 41,
+        "submissions": 2,
+        "year_month": "2022-07"
+      },
+      {
+        "comments": 86,
+        "count": 88,
+        "submissions": 2,
+        "year_month": "2022-08"
+      },
+      {
+        "comments": 121,
+        "count": 123,
+        "submissions": 2,
+        "year_month": "2022-09"
+      },
+      {
+        "comments": 320,
+        "count": 336,
+        "submissions": 16,
+        "year_month": "2022-10"
+      },
+      {
+        "comments": 395,
+        "count": 401,
+        "submissions": 6,
+        "year_month": "2022-11"
+      },
+      {
+        "comments": 96,
+        "count": 98,
+        "submissions": 2,
+        "year_month": "2022-12"
+      },
+      {
+        "comments": 203,
+        "count": 206,
+        "submissions": 3,
+        "year_month": "2023-01"
+      },
+      {
+        "comments": 252,
+        "count": 253,
+        "submissions": 1,
+        "year_month": "2023-02"
+      },
+      {
+        "comments": 533,
+        "count": 537,
+        "submissions": 4,
+        "year_month": "2023-03"
+      },
+      {
+        "comments": 380,
+        "count": 382,
+        "submissions": 2,
+        "year_month": "2023-04"
+      },
+      {
+        "comments": 304,
+        "count": 309,
+        "submissions": 5,
+        "year_month": "2023-05"
+      },
+      {
+        "comments": 637,
+        "count": 639,
+        "submissions": 2,
+        "year_month": "2023-06"
+      },
+      {
+        "comments": 755,
+        "count": 762,
+        "submissions": 7,
+        "year_month": "2023-07"
+      },
+      {
+        "comments": 659,
+        "count": 664,
+        "submissions": 5,
+        "year_month": "2023-08"
+      },
+      {
+        "comments": 574,
+        "count": 578,
+        "submissions": 4,
+        "year_month": "2023-09"
+      },
+      {
+        "comments": 261,
+        "count": 262,
+        "submissions": 1,
+        "year_month": "2023-10"
+      },
+      {
+        "comments": 645,
+        "count": 653,
+        "submissions": 8,
+        "year_month": "2023-11"
+      },
+      {
+        "comments": 609,
+        "count": 612,
+        "submissions": 3,
+        "year_month": "2023-12"
+      },
+      {
+        "comments": 689,
+        "count": 696,
+        "submissions": 7,
+        "year_month": "2024-01"
+      },
+      {
+        "comments": 694,
+        "count": 705,
+        "submissions": 11,
+        "year_month": "2024-02"
+      },
+      {
+        "comments": 448,
+        "count": 451,
+        "submissions": 3,
+        "year_month": "2024-03"
+      },
+      {
+        "comments": 375,
+        "count": 377,
+        "submissions": 2,
+        "year_month": "2024-04"
+      },
+      {
+        "comments": 574,
+        "count": 574,
+        "submissions": 0,
+        "year_month": "2024-05"
+      },
+      {
+        "comments": 473,
+        "count": 475,
+        "submissions": 2,
+        "year_month": "2024-06"
+      },
+      {
+        "comments": 296,
+        "count": 299,
+        "submissions": 3,
+        "year_month": "2024-07"
+      },
+      {
+        "comments": 271,
+        "count": 272,
+        "submissions": 1,
+        "year_month": "2024-08"
+      },
+      {
+        "comments": 324,
+        "count": 328,
+        "submissions": 4,
+        "year_month": "2024-09"
+      },
+      {
+        "comments": 311,
+        "count": 317,
+        "submissions": 6,
+        "year_month": "2024-10"
+      },
+      {
+        "comments": 465,
+        "count": 468,
+        "submissions": 3,
+        "year_month": "2024-11"
+      },
+      {
+        "comments": 742,
+        "count": 748,
+        "submissions": 6,
+        "year_month": "2024-12"
+      },
+      {
+        "comments": 836,
+        "count": 838,
+        "submissions": 2,
+        "year_month": "2025-01"
+      },
+      {
+        "comments": 668,
+        "count": 673,
+        "submissions": 5,
+        "year_month": "2025-02"
+      },
+      {
+        "comments": 743,
+        "count": 745,
+        "submissions": 2,
+        "year_month": "2025-03"
+      },
+      {
+        "comments": 718,
+        "count": 725,
+        "submissions": 7,
+        "year_month": "2025-04"
+      },
+      {
+        "comments": 592,
+        "count": 596,
+        "submissions": 4,
+        "year_month": "2025-05"
+      },
+      {
+        "comments": 569,
+        "count": 574,
+        "submissions": 5,
+        "year_month": "2025-06"
+      },
+      {
+        "comments": 623,
+        "count": 629,
+        "submissions": 6,
+        "year_month": "2025-07"
+      },
+      {
+        "comments": 660,
+        "count": 664,
+        "submissions": 4,
+        "year_month": "2025-08"
+      },
+      {
+        "comments": 698,
+        "count": 706,
+        "submissions": 8,
+        "year_month": "2025-09"
+      },
+      {
+        "comments": 537,
+        "count": 543,
+        "submissions": 6,
+        "year_month": "2025-10"
+      },
+      {
+        "comments": 302,
+        "count": 303,
+        "submissions": 1,
+        "year_month": "2025-11"
+      },
+      {
+        "comments": 203,
+        "count": 208,
+        "submissions": 5,
+        "year_month": "2025-12"
+      },
+      {
+        "comments": 34,
+        "count": 34,
+        "submissions": 0,
+        "year_month": "2026-01"
+      },
+      {
+        "comments": 42,
+        "count": 44,
+        "submissions": 2,
+        "year_month": "2026-02"
+      },
+      {
+        "comments": 163,
+        "count": 166,
+        "submissions": 3,
+        "year_month": "2026-03"
+      },
+      {
+        "comments": 101,
+        "count": 108,
+        "submissions": 7,
+        "year_month": "2026-04"
+      },
+      {
+        "comments": 65,
+        "count": 68,
+        "submissions": 3,
+        "year_month": "2026-05"
+      },
+      {
+        "comments": 65,
+        "count": 68,
+        "submissions": 3,
+        "year_month": "2026-06"
+      },
+      {
+        "comments": 1,
+        "count": 1,
+        "submissions": 0,
+        "year_month": "2026-07"
+      }
+    ],
+    "top_comments": [
+      {
+        "body": "I think you have to rename it to \"Pyro\" but you can only do it once",
+        "created_utc": 1592584539,
+        "id": "t1_fvcole0",
+        "permalink": "https://www.reddit.com/r/TheSilphRoad/comments/hc3psx/comment/fvcole0/",
+        "score": null,
+        "subreddit": "TheSilphRoad"
+      },
+      {
+        "body": "Why purify it?",
+        "created_utc": 1595882685,
+        "id": "t1_fzfylks",
+        "permalink": "https://www.reddit.com/r/TheSilphRoad/comments/hz0cny/comment/fzfylks/",
+        "score": null,
+        "subreddit": "TheSilphRoad"
+      },
+      {
+        "body": "At 481cp, that Weezing won't be useful in any league.",
+        "created_utc": 1595883363,
+        "id": "t1_fzg00q0",
+        "permalink": "https://www.reddit.com/r/TheSilphRoad/comments/hz0l9j/comment/fzg00q0/",
+        "score": null,
+        "subreddit": "TheSilphRoad"
+      },
+      {
+        "body": "No",
+        "created_utc": 1601211054,
+        "id": "t1_g6udlb3",
+        "permalink": "https://www.reddit.com/r/TheSilphRoad/comments/j0nzc4/comment/g6udlb3/",
+        "score": null,
+        "subreddit": "TheSilphRoad"
+      },
+      {
+        "body": "Spoof city USA",
+        "created_utc": 1608722139,
+        "id": "t1_ggsdubl",
+        "permalink": "https://www.reddit.com/r/TheSilphRoad/comments/kiimvo/comment/ggsdubl/",
+        "score": null,
+        "subreddit": "TheSilphRoad"
+      },
+      {
+        "body": "Agreed, i think anyone with a level 50 metagross right now should just get a ban. If by some miracle their life is so sad that they actually did dump a million candies into a metagross somehow knowing XL candy would be a thing, then they can submit an appeal. But 99.9999% are cheaters.",
+        "created_utc": 1609723318,
+        "id": "t1_gi0pf9t",
+        "permalink": "https://www.reddit.com/r/TheSilphArena/comments/kpk4xe/comment/gi0pf9t/",
+        "score": null,
+        "subreddit": "TheSilphArena"
+      },
+      {
+        "body": "Wtf",
+        "created_utc": 1611550384,
+        "id": "t1_gkoddze",
+        "permalink": "https://www.reddit.com/r/TheSilphRoad/comments/l4g59i/comment/gkoddze/",
+        "score": null,
+        "subreddit": "TheSilphRoad"
+      },
+      {
+        "body": "I see a joystick on the right",
+        "created_utc": 1615195059,
+        "id": "t1_gq6zr8p",
+        "permalink": "https://www.reddit.com/r/TheSilphRoad/comments/lzb45u/comment/gq6zr8p/",
+        "score": null,
+        "subreddit": "TheSilphRoad"
+      },
+      {
+        "body": "They should be banned for cheating",
+        "created_utc": 1616320527,
+        "id": "t1_groqcg9",
+        "permalink": "https://www.reddit.com/r/TheSilphRoad/comments/m9rmgh/comment/groqcg9/",
+        "score": null,
+        "subreddit": "TheSilphRoad"
+      },
+      {
+        "body": "Taco John’s?",
+        "created_utc": 1624425872,
+        "id": "t1_h2qks0m",
+        "permalink": "https://www.reddit.com/r/fastfood/comments/o5s4tt/comment/h2qks0m/",
+        "score": null,
+        "subreddit": "fastfood"
+      },
+      {
+        "body": "I get a 4x4 no cheese Flying Dutchman extra whole grilled onions cut in quarters",
+        "created_utc": 1643879483,
+        "id": "t1_hvedn0w",
+        "permalink": "https://www.reddit.com/r/innout/comments/shp2bm/comment/hvedn0w/",
+        "score": null,
+        "subreddit": "innout"
+      },
+      {
+        "body": "Stove top",
+        "created_utc": 1644035321,
+        "id": "t1_hvnrfhn",
+        "permalink": "https://www.reddit.com/r/Chipotle/comments/sktxar/comment/hvnrfhn/",
+        "score": null,
+        "subreddit": "Chipotle"
+      },
+      {
+        "body": "Someone needs to grow up a little it sounds like… I think my six year old daughter has a more refined palette",
+        "created_utc": 1644055922,
+        "id": "t1_hvolf4i",
+        "permalink": "https://www.reddit.com/r/Chipotle/comments/sky2cu/comment/hvolf4i/",
+        "score": null,
+        "subreddit": "Chipotle"
+      },
+      {
+        "body": "Lasagna?",
+        "created_utc": 1644380279,
+        "id": "t1_hw6l1tv",
+        "permalink": "https://www.reddit.com/r/Chipotle/comments/snxcz5/comment/hw6l1tv/",
+        "score": null,
+        "subreddit": "Chipotle"
+      },
+      {
+        "body": "I sometimes order a burrito with black beans and sour cream only. Delicious mid morning snack",
+        "created_utc": 1644391177,
+        "id": "t1_hw742xf",
+        "permalink": "https://www.reddit.com/r/Chipotle/comments/snz9u1/comment/hw742xf/",
+        "score": null,
+        "subreddit": "Chipotle"
+      },
+      {
+        "body": "Have a couple drinks - yes, alcohol disrupts deep sleep. But it will help take the edge off and get you to fall asleep, which is what you really want right now. Good luck sleeping!!",
+        "created_utc": 1644408415,
+        "id": "t1_hw7r32d",
+        "permalink": "https://www.reddit.com/r/insomnia/comments/so7u87/comment/hw7r32d/",
+        "score": null,
+        "subreddit": "insomnia"
+      },
+      {
+        "body": "Looks great except for being raw",
+        "created_utc": 1644412396,
+        "id": "t1_hw7y2cj",
+        "permalink": "https://www.reddit.com/r/burgers/comments/sn162w/comment/hw7y2cj/",
+        "score": null,
+        "subreddit": "burgers"
+      },
+      {
+        "body": "Lol",
+        "created_utc": 1644555334,
+        "id": "t1_hwgtuvf",
+        "permalink": "https://www.reddit.com/r/Chipotle/comments/spqq4x/comment/hwgtuvf/",
+        "score": null,
+        "subreddit": "Chipotle"
+      },
+      {
+        "body": "Cut sizes are pretty off, but looks good. 7/10",
+        "created_utc": 1644658780,
+        "id": "t1_hwmkdy4",
+        "permalink": "https://www.reddit.com/r/Chipotle/comments/sqftfb/comment/hwmkdy4/",
+        "score": null,
+        "subreddit": "Chipotle"
+      },
+      {
+        "body": "How’s that boot 🥾 taste?",
+        "created_utc": 1644757879,
+        "id": "t1_hwrv3co",
+        "permalink": "https://www.reddit.com/r/McDonalds/comments/se53f8/comment/hwrv3co/",
+        "score": null,
+        "subreddit": "McDonalds"
+      }
+    ],
+    "top_posts": [
+      {
+        "created_utc": 1757416677,
+        "id": "t3_1ncg3n2",
+        "permalink": "https://www.reddit.com/r/tacobell/comments/1ncg3n2/this_is_not_a_drill_the_chili_cheese_burrito_is/",
+        "score": 528,
+        "subreddit": "tacobell",
+        "title": "This is not a drill. The Chili Cheese Burrito is HERE",
+        "type": "submission"
+      },
+      {
+        "created_utc": 1668689968,
+        "id": "t3_yxpmc5",
+        "permalink": "https://www.reddit.com/r/Chipotle/comments/yxpmc5/new_tiktok_hack_to_virtually_guarantee_a_full/",
+        "score": 371,
+        "subreddit": "Chipotle",
+        "title": "New TikTok “Hack” to virtually guarantee a full bowl / burrito",
+        "type": "submission"
+      },
+      {
+        "created_utc": 1689537815,
+        "id": "t3_151g00u",
+        "permalink": "https://www.reddit.com/r/tacobell/comments/151g00u/just_downed_5_grilled_cheese_burritos_no_red/",
+        "score": 309,
+        "subreddit": "tacobell",
+        "title": "Just downed 5 Grilled Cheese Burritos, no red strips, in 16 minutes after a long morning of hauling boxes.",
+        "type": "submission"
+      },
+      {
+        "created_utc": 1665427462,
+        "id": "t3_y0mjvb",
+        "permalink": "https://www.reddit.com/r/Chipotle/comments/y0mjvb/someone_brought_food_scale_asked_to_weight_his/",
+        "score": 284,
+        "subreddit": "Chipotle",
+        "title": "Someone brought food scale, asked to weight his scoop of steak before putting it on his burrito. My manager kicked him out.",
+        "type": "submission"
+      },
+      {
+        "created_utc": 1748948275,
+        "id": "t3_1l28w3j",
+        "permalink": "https://www.reddit.com/r/tacobell/comments/1l28w3j/is_the_cheesy_double_beef_burrito_the_most_slept/",
+        "score": 167,
+        "subreddit": "tacobell",
+        "title": "Is the Cheesy Double Beef Burrito the most slept on Taco Bell item?",
+        "type": "submission"
+      },
+      {
+        "created_utc": 1675262655,
+        "id": "t3_10qwed2",
+        "permalink": "https://www.reddit.com/r/Chipotle/comments/10qwed2/if_you_cant_handle_the_hot_salsa_please_stop/",
+        "score": 159,
+        "subreddit": "Chipotle",
+        "title": "If you can't handle the hot salsa, PLEASE stop ordering the hot salsa",
+        "type": "submission"
+      },
+      {
+        "created_utc": 1690430650,
+        "id": "t3_15arbn2",
+        "permalink": "https://www.reddit.com/r/LivingMas/comments/15arbn2/its_time_to_accept_a_simple_fact_the_app_option/",
+        "score": 158,
+        "subreddit": "LivingMas",
+        "title": "It’s time to accept a simple fact: The app option to get a burrito “grilled” is not coming back",
+        "type": "submission"
+      },
+      {
+        "created_utc": 1760272739,
+        "id": "t3_1o4o07l",
+        "permalink": "https://www.reddit.com/r/wendys/comments/1o4o07l/i_dont_like_the_shredded_lettuce_change_either/",
+        "score": 152,
+        "subreddit": "wendys",
+        "title": "I don’t like the shredded lettuce change either. But there’s a solution - the Baconator.",
+        "type": "submission"
+      },
+      {
+        "created_utc": 1666381134,
+        "id": "t3_ya2mf8",
+        "permalink": "https://www.reddit.com/r/Chipotle/comments/ya2mf8/how_should_i_ring_this_up_customer_asked_for_3oz/",
+        "score": 147,
+        "subreddit": "Chipotle",
+        "title": "How should I ring this up? Customer asked for “3oz more” of chicken",
+        "type": "submission"
+      },
+      {
+        "created_utc": 1672040928,
+        "id": "t3_zvi4hv",
+        "permalink": "https://www.reddit.com/r/Chipotle/comments/zvi4hv/psa_if_you_are_posting_a_complaint_about_a_small/",
+        "score": 144,
+        "subreddit": "Chipotle",
+        "title": "PSA: If you are posting a complaint about a small burrito/bowl, PLEASE include your order in the post",
+        "type": "submission"
+      },
+      {
+        "created_utc": 1683779677,
+        "id": "t3_13ed1nf",
+        "permalink": "https://www.reddit.com/r/LivingMas/comments/13ed1nf/anyone_else_think_the_2_burritos_are_one_of_the/",
+        "score": 144,
+        "subreddit": "LivingMas",
+        "title": "Anyone else think the $2 burritos are one of the best things in fast food?",
+        "type": "submission"
+      },
+      {
+        "created_utc": 1685452761,
+        "id": "t3_13vq4qi",
+        "permalink": "https://www.reddit.com/r/LivingMas/comments/13vq4qi/chili_verde_fries_burrito_best_thing_on_the_taco/",
+        "score": 103,
+        "subreddit": "LivingMas",
+        "title": "Chili Verde Fries Burrito - Best thing on the Taco Bell menu?",
+        "type": "submission"
+      },
+      {
+        "created_utc": 1666532186,
+        "id": "t3_ybhwpn",
+        "permalink": "https://www.reddit.com/r/Chipotle/comments/ybhwpn/customers_scamming_chipotle_to_get_extra_food_for/",
+        "score": 84,
+        "subreddit": "Chipotle",
+        "title": "Customers scamming Chipotle to get extra food for free. I’m livid.",
+        "type": "submission"
+      },
+      {
+        "created_utc": 1757988869,
+        "id": "t3_1ni5a4d",
+        "permalink": "https://www.reddit.com/r/tacobell/comments/1ni5a4d/the_ultimate_chili_cheese_burrito/",
+        "score": 82,
+        "subreddit": "tacobell",
+        "title": "The Ultimate Chili Cheese Burrito",
+        "type": "submission"
+      },
+      {
+        "created_utc": 1661489380,
+        "id": "t3_wxzv0o",
+        "permalink": "https://www.reddit.com/r/subway/comments/wxzv0o/is_the_simone_biles_vaultwich_worth_99_it_looks/",
+        "score": 53,
+        "subreddit": "subway",
+        "title": "Is the Simone Biles “Vaultwich” worth $99? It looks delicious and I’m rich but seems $$$",
+        "type": "submission"
+      },
+      {
+        "created_utc": 1691435874,
+        "id": "t3_15ku5su",
+        "permalink": "https://www.reddit.com/r/Chipotle/comments/15ku5su/tired_of_people_requesting_4_or_5_vinaigrettes/",
+        "score": 46,
+        "subreddit": "Chipotle",
+        "title": "Tired of people requesting 4 or 5 Vinaigrettes pre entree. Here's the official recipe.",
+        "type": "submission"
+      },
+      {
+        "created_utc": 1757328909,
+        "id": "t3_1nbkjg4",
+        "permalink": "https://www.reddit.com/r/wingstop/comments/1nbkjg4/just_realized_ive_eaten_over_220_wingstop_wings/",
+        "score": 45,
+        "subreddit": "wingstop",
+        "title": "Just realized I’ve eaten over 220 Wingstop wings, and 35 tenders, in the last week",
+        "type": "submission"
+      },
+      {
+        "created_utc": 1658858156,
+        "id": "t3_w8qdbs",
+        "permalink": "https://www.reddit.com/r/subway/comments/w8qdbs/anyone_else_too_embarrassed_to_order_the_new/",
+        "score": 40,
+        "subreddit": "subway",
+        "title": "Anyone else too embarrassed to order the new Series subs because of dumb names like \"The Boss\"?",
+        "type": "submission"
+      },
+      {
+        "created_utc": 1758022131,
+        "id": "t3_1nietqk",
+        "permalink": "https://www.reddit.com/r/Popeyes/comments/1nietqk/be_warned_the_last_dab_items_are_actually/",
+        "score": 37,
+        "subreddit": "Popeyes",
+        "title": "Be warned - the Last Dab items are actually legitimately hot.",
+        "type": "submission"
+      },
+      {
+        "created_utc": 1680102899,
+        "id": "t3_125r5k1",
+        "permalink": "https://www.reddit.com/r/Chipotle/comments/125r5k1/what_the_heck_is_with_the_hot_salsa_its_hot_im/",
+        "score": 33,
+        "subreddit": "Chipotle",
+        "title": "What the heck is with the hot salsa? It's HOT. I'm dying",
+        "type": "submission"
+      }
+    ],
+    "totals": {
+      "comments": 20307,
+      "first_activity": "2020-06-17T00:46:26+00:00",
+      "items": 20514,
+      "last_activity": "2026-07-01T18:46:12+00:00",
+      "submissions": 207,
+      "subreddits": 98
+    }
+  },
+  "topics": {
+    "empty": false,
+    "n_topics": 8,
+    "over_time": [
+      {
+        "count": 18,
+        "topic": 0,
+        "year": 2020
+      },
+      {
+        "count": 1,
+        "topic": 2,
+        "year": 2020
+      },
+      {
+        "count": 4,
+        "topic": 3,
+        "year": 2020
+      },
+      {
+        "count": 1,
+        "topic": 4,
+        "year": 2020
+      },
+      {
+        "count": 1,
+        "topic": 6,
+        "year": 2020
+      },
+      {
+        "count": 29,
+        "topic": 0,
+        "year": 2021
+      },
+      {
+        "count": 1,
+        "topic": 1,
+        "year": 2021
+      },
+      {
+        "count": 511,
+        "topic": 0,
+        "year": 2022
+      },
+      {
+        "count": 96,
+        "topic": 1,
+        "year": 2022
+      },
+      {
+        "count": 106,
+        "topic": 2,
+        "year": 2022
+      },
+      {
+        "count": 98,
+        "topic": 3,
+        "year": 2022
+      },
+      {
+        "count": 52,
+        "topic": 4,
+        "year": 2022
+      },
+      {
+        "count": 33,
+        "topic": 5,
+        "year": 2022
+      },
+      {
+        "count": 70,
+        "topic": 6,
+        "year": 2022
+      },
+      {
+        "count": 75,
+        "topic": 7,
+        "year": 2022
+      },
+      {
+        "count": 2546,
+        "topic": 0,
+        "year": 2023
+      },
+      {
+        "count": 364,
+        "topic": 1,
+        "year": 2023
+      },
+      {
+        "count": 533,
+        "topic": 2,
+        "year": 2023
+      },
+      {
+        "count": 526,
+        "topic": 3,
+        "year": 2023
+      },
+      {
+        "count": 161,
+        "topic": 4,
+        "year": 2023
+      },
+      {
+        "count": 363,
+        "topic": 5,
+        "year": 2023
+      },
+      {
+        "count": 125,
+        "topic": 6,
+        "year": 2023
+      },
+      {
+        "count": 298,
+        "topic": 7,
+        "year": 2023
+      },
+      {
+        "count": 2348,
+        "topic": 0,
+        "year": 2024
+      },
+      {
+        "count": 250,
+        "topic": 1,
+        "year": 2024
+      },
+      {
+        "count": 188,
+        "topic": 2,
+        "year": 2024
+      },
+      {
+        "count": 397,
+        "topic": 3,
+        "year": 2024
+      },
+      {
+        "count": 152,
+        "topic": 4,
+        "year": 2024
+      },
+      {
+        "count": 343,
+        "topic": 5,
+        "year": 2024
+      },
+      {
+        "count": 316,
+        "topic": 6,
+        "year": 2024
+      },
+      {
+        "count": 440,
+        "topic": 7,
+        "year": 2024
+      },
+      {
+        "count": 3063,
+        "topic": 0,
+        "year": 2025
+      },
+      {
+        "count": 325,
+        "topic": 1,
+        "year": 2025
+      },
+      {
+        "count": 199,
+        "topic": 2,
+        "year": 2025
+      },
+      {
+        "count": 452,
+        "topic": 3,
+        "year": 2025
+      },
+      {
+        "count": 187,
+        "topic": 4,
+        "year": 2025
+      },
+      {
+        "count": 389,
+        "topic": 5,
+        "year": 2025
+      },
+      {
+        "count": 131,
+        "topic": 6,
+        "year": 2025
+      },
+      {
+        "count": 741,
+        "topic": 7,
+        "year": 2025
+      },
+      {
+        "count": 226,
+        "topic": 0,
+        "year": 2026
+      },
+      {
+        "count": 13,
+        "topic": 1,
+        "year": 2026
+      },
+      {
+        "count": 9,
+        "topic": 2,
+        "year": 2026
+      },
+      {
+        "count": 23,
+        "topic": 3,
+        "year": 2026
+      },
+      {
+        "count": 17,
+        "topic": 4,
+        "year": 2026
+      },
+      {
+        "count": 35,
+        "topic": 5,
+        "year": 2026
+      },
+      {
+        "count": 15,
+        "topic": 6,
+        "year": 2026
+      },
+      {
+        "count": 36,
+        "topic": 7,
+        "year": 2026
+      }
+    ],
+    "topics": [
+      {
+        "size": 8741,
+        "terms": [
+          "just",
+          "like",
+          "don",
+          "pepper",
+          "good",
+          "people",
+          "ll",
+          "chipotle",
+          "want",
+          "say",
+          "think",
+          "time"
+        ],
+        "topic": 0
+      },
+      {
+        "size": 1049,
+        "terms": [
+          "rice",
+          "chicken",
+          "white",
+          "white rice",
+          "rice chicken",
+          "cheese",
+          "chicken cheese",
+          "ordered",
+          "bowl",
+          "extra",
+          "order white",
+          "ingredients"
+        ],
+        "topic": 1
+      },
+      {
+        "size": 1036,
+        "terms": [
+          "salsa",
+          "hot",
+          "veggies",
+          "sour",
+          "cream",
+          "sour cream",
+          "hot salsa",
+          "fajita",
+          "fajita veggies",
+          "corn",
+          "beans",
+          "mild"
+        ],
+        "topic": 2
+      },
+      {
+        "size": 1500,
+        "terms": [
+          "order",
+          "did",
+          "ingredients",
+          "did order",
+          "order ingredients",
+          "bowl",
+          "ingredients did",
+          "skimp",
+          "extra",
+          "app",
+          "portions",
+          "online"
+        ],
+        "topic": 3
+      },
+      {
+        "size": 570,
+        "terms": [
+          "disgusting",
+          "absolutely",
+          "absolutely disgusting",
+          "looks",
+          "looks absolutely",
+          "looks like",
+          "bowl",
+          "looks disgusting",
+          "bowl looks",
+          "like",
+          "sounds",
+          "absolutely awful"
+        ],
+        "topic": 4
+      },
+      {
+        "size": 1163,
+        "terms": [
+          "lol",
+          "ve",
+          "rich",
+          "literally",
+          "got",
+          "lol just",
+          "read",
+          "post",
+          "butler",
+          "eat",
+          "did",
+          "comment"
+        ],
+        "topic": 5
+      },
+      {
+        "size": 658,
+        "terms": [
+          "boss",
+          "footlong",
+          "pro",
+          "boss pro",
+          "footlong boss",
+          "meat",
+          "meat balls",
+          "balls",
+          "add",
+          "mayo",
+          "double",
+          "subway"
+        ],
+        "topic": 6
+      },
+      {
+        "size": 1590,
+        "terms": [
+          "cheese",
+          "grilled",
+          "burrito",
+          "grilled cheese",
+          "cheese burrito",
+          "taco",
+          "add",
+          "bell",
+          "taco bell",
+          "burritos",
+          "beef",
+          "cheese burritos"
+        ],
+        "topic": 7
+      }
+    ]
+  },
+  "username": "newppinpoint"
+}

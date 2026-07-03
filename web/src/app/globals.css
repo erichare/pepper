@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+:root {
+  /* ── The Pepper Dossier palette ─────────────────────────── */
+  --chile: #a81612; /* primary brand red */
+  --chile-deep: #7a100d; /* hover / chart shade */
+  --board: #241a12; /* dark menu-board sections, nav */
+  --board-soft: #322418; /* raised card on board */
+  --ink: #2b1b12; /* body text on light */
+  --masa: #f4ebda; /* page background */
+  --kraft: #d9c4a0; /* cards, folder, borders */
+  --kraft-deep: #b99a6b; /* texture shading, dividers */
+  --foil-a: #dde1e4; /* foil gradient stops */
+  --foil-b: #9ba3aa;
+  --gold: #c0912f; /* awards, tab underline */
+  --guac: #5e7b2e; /* positive series, CONFIRMED stamp */
+  --corn: #e3b23c; /* tacobell series, heatmap mid */
+  --crema: #fffcf4; /* receipt paper, reply cards */
+  --carnitas: #8c5a3c; /* chart categorical */
+  --cilantro: #4c7031; /* chart categorical */
+  --upvote: #ff4500; /* positive scores ONLY */
+  --downvote: #7193ff; /* negative scores ONLY */
+
+  --background: var(--masa);
+  --foreground: var(--ink);
+}
+
+@theme inline {
+  --color-chile: var(--chile);
+  --color-chile-deep: var(--chile-deep);
+  --color-board: var(--board);
+  --color-board-soft: var(--board-soft);
+  --color-ink: var(--ink);
+  --color-masa: var(--masa);
+  --color-kraft: var(--kraft);
+  --color-kraft-deep: var(--kraft-deep);
+  --color-foil-a: var(--foil-a);
+  --color-foil-b: var(--foil-b);
+  --color-gold: var(--gold);
+  --color-guac: var(--guac);
+  --color-corn: var(--corn);
+  --color-crema: var(--crema);
+  --color-carnitas: var(--carnitas);
+  --color-cilantro: var(--cilantro);
+  --color-upvote: var(--upvote);
+  --color-downvote: var(--downvote);
+
+  --font-display: var(--font-anton);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-plex-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+/* ── shared ornaments ──────────────────────────────────────── */
+
+/* mono kicker labels: `№ 03 — SIDES & ANALYTICS` */
+.kicker {
+  font-family: var(--font-plex-mono), monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--chile);
+}
+
+.dark-section .kicker {
+  color: var(--gold);
+}
+
+/* display headings */
+.display {
+  font-family: var(--font-anton), sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  line-height: 0.95;
+}
+
+/* tabular numerals for anything that counts */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+/* foil chip surface with hover sheen */
+.foil {
+  background: linear-gradient(135deg, var(--foil-a), var(--foil-b) 55%, var(--foil-a));
+  background-size: 200% 200%;
+  background-position: 0% 0%;
+  transition: background-position 0.7s ease;
+}
+.foil:hover {
+  background-position: 100% 100%;
+}
+
+/* receipt perforation (top + bottom scallops) */
+.perforated {
+  --perf: radial-gradient(circle at 8px 0, transparent 5px, var(--crema) 5.5px);
+  mask-image: linear-gradient(#000, #000);
+}
+.perf-edge {
+  height: 10px;
+  background-image: radial-gradient(circle at 8px 10px, transparent 6px, var(--crema) 6.5px);
+  background-size: 16px 10px;
+  background-repeat: repeat-x;
+}
+.perf-edge--bottom {
+  transform: scaleY(-1);
+}
+
+/* rubber stamp */
+.stamp {
+  font-family: var(--font-plex-mono), monospace;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  border: 2px solid currentColor;
+  border-radius: 4px;
+  padding: 0.1em 0.45em;
+  transform: rotate(-4deg);
+  mix-blend-mode: multiply;
+  filter: blur(0.3px);
+  display: inline-block;
+}
+
+/* kraft paper grain overlay — apply to a section, cheap single filter */
+.grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* focus ring */
+:focus-visible {
+  outline: 2px solid var(--chile);
+  outline-offset: 2px;
+}
+
+.dark-section :focus-visible {
+  outline-color: var(--gold);
+}
+
+/* below-fold rendering hint for long dossier sections */
+.cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 720px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
