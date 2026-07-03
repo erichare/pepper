@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# The Pepper Dossier — web app
 
-## Getting Started
+An interactive profile of reddit user **/u/newppinpoint** built on the pepper
+archive: a scroll-driven dossier, a live /r/Chipotle feed where each post gets
+an AI-generated reply in his voice, and a browsable archive of all 20,514 items.
 
-First, run the development server:
+Next.js 16 (App Router) · React 19 · TypeScript · Tailwind v4 · framer-motion ·
+custom SVG + d3 charts · AI SDK v5 (Anthropic).
+
+## Routes
+
+| Route | Name | What it is |
+|-------|------|-----------|
+| `/` | The Dossier | 11-section scroll story — karma odometer, thermal-receipt linguistics, salsa timeline, karma waterfall, burrito-bowl topics, hours heatmap, downvote hall of fame, case-file facts, interlocutor constellation, voice guide |
+| `/feed` | The Line | Live /r/Chipotle posts with a "What would newppinpoint say?" streamed reply per post |
+| `/browse` | The Archive | Filterable/searchable explorer over all 20,514 items (defaults to Most Downvoted) |
+
+## Data
+
+All static data under `src/data/` and `public/data|media/` is generated from the
+SQLite archive by a deterministic pipeline stage in the pepper package — never
+edit it by hand:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# from the repo root
+uv run pepper archive webexport      # or: just webexport
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Re-running on an unchanged database is byte-identical (safe to commit).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Local development
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+cp web/.env.example web/.env.local   # add ANTHROPIC_API_KEY at minimum
+npm --prefix web install
+npm --prefix web run dev
+```
 
-## Learn More
+- **Reply generation** needs `ANTHROPIC_API_KEY`.
+- **The live feed** hits Reddit. From a residential IP the public path usually
+  works; from datacenter IPs (and often locally) Reddit 403s the public `.json`
+  endpoints — set `REDDIT_CLIENT_ID`/`REDDIT_CLIENT_SECRET` (a "script" app at
+  <https://old.reddit.com/prefs/apps>) to use app-only OAuth instead. Without
+  Reddit access the feed degrades gracefully to an in-voice error state.
 
-To learn more about Next.js, take a look at the following resources:
+## Deploy (Vercel)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Import the repo; set **Root Directory = `web`**.
+2. Set environment variables (see `.env.example`):
+   - `ANTHROPIC_API_KEY` — required (replies).
+   - `REDDIT_CLIENT_ID` / `REDDIT_CLIENT_SECRET` — strongly recommended (the
+     live feed will not reach Reddit from Vercel's IPs without them).
+   - `PERSONA_MODEL`, `DAILY_GENERATION_CAP` — optional cost controls.
+   - `UPSTASH_REDIS_REST_URL` / `_TOKEN` — optional; enables a persistent reply
+     cache + cross-instance rate limiting (add the Upstash integration).
+3. Deploy. The dossier and archive are fully static; `/api/feed` and
+   `/api/reply` are server functions.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Everything is display-only — the app never writes to Reddit, and generated
+replies are clearly labeled AI parody.
