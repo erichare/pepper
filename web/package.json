@@ -9,10 +9,10 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@ai-sdk/anthropic": "^4.0.6",
+    "@ai-sdk/anthropic": "^4.0.89",
     "@upstash/ratelimit": "^2.0.8",
     "@upstash/redis": "^1.38.0",
-    "ai": "^7.0.13",
+    "ai": "^7.0.154",
     "d3-force": "^3.0.0",
     "d3-scale": "^4.0.2",
     "d3-shape": "^3.2.0",

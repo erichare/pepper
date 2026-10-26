@@ -17,7 +17,7 @@ import { checkDailyBudget, checkReplyLimit } from "@/lib/ratelimit";
 export const maxDuration = 60;
 
 const CACHE_TTL_SECONDS = 7 * 24 * 3600;
-const DEFAULT_MODEL = "claude-sonnet-5";
+const DEFAULT_MODEL = "claude-sonnet-5-5";
 
 const replyRequestSchema = z.object({
   postId: z
@@ -117,7 +117,7 @@ export async function POST(request: Request): Promise<Response> {
         attempt: body.regenerate ? 1 : 0,
       }),
       maxOutputTokens: 400,
-      temperature: body.regenerate ? 1.0 : 0.9,
+      reasoning: "none",
       onFinish: async ({ text }) => {
         if (!text) return;
         try {
